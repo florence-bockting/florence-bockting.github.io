@@ -17,8 +17,8 @@ from: markdown+emoji
 [journal](https://doi.org/10.1007/s42113-021-00118-x){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
 {{< bi file-earmark-text >}} van Doorn, J., Haaf, J. M., Stefan, A. M., Wagenmakers, E. J., Cox, G. E., Davis-Stober, C. P., ..., **Bockting, F.,** & Aust, F. (2023). Bayes factors for mixed models: A discussion. *Computational Brain & Behavior, 6*, 1-13. <br>
-[PDF](https://link.springer.com/content/pdf/10.1007/s42113-021-00113-2.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
-[journal](https://doi.org/10.1007/s42113-021-00113-2){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[PDF](https://link.springer.com/content/pdf/10.1007/s42113-022-00160-3.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[journal](https://link.springer.com/article/10.1007/s42113-022-00160-3){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
 {{< bi chat-text >}} **Bockting, F.** & Heck, D. W. (2021). Measuring Individual Differences in the Truth Effect: A formal analysis. Fast Talk at [MathPsych](https://mathpsych.org/)
 
