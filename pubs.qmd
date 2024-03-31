@@ -12,7 +12,7 @@ from: markdown+emoji
 {{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T., & Bürkner, P. C. (2023). Simulation-Based Prior Knowledge Elicitation for Parametric Bayesian Models. <br>
 [PDF](https://arxiv.org/pdf/2308.11672.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 [ArXiv](https://arxiv.org/abs/2308.11672){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
-[project website](florence-bockting.github.io/PriorLearning/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[project website](/PriorLearning/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
 {{< bi file-earmark-text >}} Heck, D. W., **Bockting, F.** (2023). Benefits of Bayesian Model Averaging for Mixed-Effects Modeling. *Computational Brain & Behavior 6*, 35–49. <br>
 [PDF](https://link.springer.com/content/pdf/10.1007/s42113-021-00118-x.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}

@@ -28,7 +28,7 @@ format:
 
 I am currently a doctoral student specializing in method development at the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/), under the guidance of [Paul-Christian Bürkner](https://paul-buerkner.github.io/). 
 
-My dissertation focuses on developing and implementing a method to translate expert knowledge into corresponding prior distributions for parameters in Bayesian models (see [Publications & Talks](pubs.qmd) and [project website](florence-bockting.github.io/PriorLearning/)). In pursuit of this objective, I am exploring the integration of methods from both statistics and machine learning.
+My dissertation focuses on developing and implementing a method to translate expert knowledge into corresponding prior distributions for parameters in Bayesian models (see [Publications & Talks](pubs.qmd) and [project website](/PriorLearning)). In pursuit of this objective, I am exploring the integration of methods from both statistics and machine learning.
 
 In the realm of method development, I am particularly fascinated by the intersection of users, methodology, and implementation. Developing effective methods demands a broad understanding across various disciplines, from identifying user needs to statistical-mathematical modeling and computational implementation. I appreciate how this work allows me to draw upon my [interdisciplinary experience](about.qmd) and continually develop myself.
 

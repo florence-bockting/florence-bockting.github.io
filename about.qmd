@@ -8,7 +8,7 @@ During my bachelor's studies in [business psychology](https://www.hs-harz.de/en/
 
 Simultaneously, I realized that I lacked knowledge in modeling to develop models that are flexible enough to address both content-related questions and the particularity of data adequately. This realization led me to pursue a master's degree in [cognitive science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/), with specializations in artificial intelligence and cognitive psychology. During this time, I gained insights into formal modeling methods and their implementation in R and Python. In particular, I was greatly impressed by the flexibility offered by the Bayesian framework.
 
-The desire to further deepen my knowledge in formal modeling, Bayesian statistics, and especially the computational implementation of methods led me to my current doctoral position in [computational statistics](https://compstat.statistik.tu-dortmund.de/) at TU Dortmund. Information about my current contributions can be found on [Publications & Talks](pubs.qmd) page as well as on my [project website](florence-bockting.github.io/PriorLearning/).
+The desire to further deepen my knowledge in formal modeling, Bayesian statistics, and especially the computational implementation of methods led me to my current doctoral position in [computational statistics](https://compstat.statistik.tu-dortmund.de/) at TU Dortmund. Information about my current contributions can be found on [Publications & Talks](pubs.qmd) page as well as on my [project website](/PriorLearning/).
 
 My overarching goal is to integrate the valuable insights from application, methodology, and computational statistics to develop methods that encompass all perspectives.
 
