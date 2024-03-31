@@ -1,6 +1,4 @@
 ---
-title: " "
-
 from: markdown+emoji
 ---
 
