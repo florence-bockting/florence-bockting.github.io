@@ -1,0 +1,38 @@
+---
+title: Florence Bockting
+subtitle: "PhD student computational statistics"
+
+from: markdown+emoji
+
+image: graphics/profile.png
+
+about:
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  
+  links:
+    - text: Email
+      icon: envelope-fill
+      href: mailto:florence.bockting@tu-dortmund.de
+    - text: GitHub
+      icon: github
+      href: https://github.com/florence-bockting
+      
+format: 
+  html:
+    page-layout: full
+---
+
+:::{#hero-heading}
+
+I am currently a doctoral student specializing in method development at the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/), under the guidance of [Paul-Christian Bürkner](https://paul-buerkner.github.io/). 
+
+My dissertation focuses on developing and implementing a method to translate expert knowledge into corresponding prior distributions for parameters in Bayesian models (see [Publications & Talks](pubs.qmd) and [project website](florence-bockting.github.io/PriorLearning/)). In pursuit of this objective, I am exploring the integration of methods from both statistics and machine learning.
+
+In the realm of method development, I am particularly fascinated by the intersection of users, methodology, and implementation. Developing effective methods demands a broad understanding across various disciplines, from identifying user needs to statistical-mathematical modeling and computational implementation. I appreciate how this work allows me to draw upon my [interdisciplinary experience](about.qmd) and continually develop myself.
+
+Besides pure method development, knowledge transfer and supporting users in their analysis are important to me. From personal experience, I understand that a lot of uncertainty can arise in communication between disciplines, often due to differences in language, mindset, and methodology. I have come to know and appreciate both the user and method perspectives and wish for more knowledge exchange, curiosity, and collaboration across disciplines.
+
+Outside of work, you'll mostly find me running, cycling, or hiking in nature.
+:::

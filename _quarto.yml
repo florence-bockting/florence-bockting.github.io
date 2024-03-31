@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  
+  title: "F. Bockting"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "Publications & Talks"
+        file: pubs.qmd
+      - text: "Teaching"
+        file: teaching.qmd
+    tools:
+      - icon: envelope-fill
+        href: mailto:florence.bockting@tu-dortmund.de
+      - icon: github
+        href: https://github.com/florence-bockting
+
+  page-footer: 
+    left: ":copyright: 2024, Florence Bocking" 
+    right: 
+      - icon: envelope-fill
+        href: mailto:florence.bockting@tu-dortmund.de
+      - icon: github
+        href: https://github.com/florence-bockting
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    
+  
+    

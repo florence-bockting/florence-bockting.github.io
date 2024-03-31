@@ -1,0 +1,28 @@
+---
+title: " "
+
+from: markdown+emoji
+---
+
+## Publications & Talks
+
+{{< bi chat-text >}} **Bockting F.**, Radev S. T., & Bürkner P. C. (2024). Invited talk: Simulation-Based Prior Knowledge Elicitation for Parametric Bayesian Models. First presented at [Bayes@Lund](https://www.bayesatlund.com/). <br>
+[Youtube](https://www.youtube.com/watch?v=KFPn7P2mfQw){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T., & Bürkner, P. C. (2023). Simulation-Based Prior Knowledge Elicitation for Parametric Bayesian Models. <br>
+[PDF](https://arxiv.org/pdf/2308.11672.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[ArXiv](https://arxiv.org/abs/2308.11672){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[project website](florence-bockting.github.io/PriorLearning/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi file-earmark-text >}} Heck, D. W., **Bockting, F.** (2023). Benefits of Bayesian Model Averaging for Mixed-Effects Modeling. *Computational Brain & Behavior 6*, 35–49. <br>
+[PDF](https://link.springer.com/content/pdf/10.1007/s42113-021-00118-x.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[journal](https://doi.org/10.1007/s42113-021-00118-x){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi file-earmark-text >}} van Doorn, J., Haaf, J. M., Stefan, A. M., Wagenmakers, E. J., Cox, G. E., Davis-Stober, C. P., ..., **Bockting, F.,** & Aust, F. (2023). Bayes factors for mixed models: A discussion. *Computational Brain & Behavior, 6*, 1-13. <br>
+[PDF](https://link.springer.com/content/pdf/10.1007/s42113-021-00113-2.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[journal](https://doi.org/10.1007/s42113-021-00113-2){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi chat-text >}} **Bockting, F.** & Heck, D. W. (2021). Measuring Individual Differences in the Truth Effect: A formal analysis. Fast Talk at [MathPsych](https://mathpsych.org/)
+
+{{< bi book >}} Stephan, A., Walter, S., Anton, T., Barkmann, M., **Bockting, F.**, Dielen, G., Dziomba, L., Lang, A., Ruland, M., & Schütze, P. (2021). Nachwort. In Turing A. M. *Computing Machinery and Intelligence. Können Maschinen Denken?* (pp. 131-201). English/German. Reclam. <br>
+[Reclam](https://www.reclam.de/detail/978-3-15-961827-2/Turing__Alan_M_/Computing_Machinery_and_Intelligence___Koennen_Maschinen_denken___EPUB_){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
