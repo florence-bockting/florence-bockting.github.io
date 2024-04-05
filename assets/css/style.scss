@@ -1,1 +1,7 @@
 /* css styles */
+
+.btn.btn-sm, .btn-group-sm > .btn {
+    padding: 5px .4rem;
+    font-size: 14px;
+    border-radius: .2rem;
+  }
