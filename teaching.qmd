@@ -3,17 +3,26 @@ from: markdown+emoji
 ---
 ## Teaching
 
+**Introduction into Python** (2024)
+
+This online course provides an introduction into Python for Bachelor and Master students at the University of Dortmund and introduces several tools to enable reproducible and reliable programming, including python packaging, data wrangling, data visualization, and version control and collaborative programming with Git and GitHub. By the end of the course, students should be capable of working on a self-selected project using Python, developing their own Python package and acquiring independently new Python knowledge.
+
 **Seminar on multilevel models** (2023/24)
 
 This seminar provides basic knowledge about linear and generalized linear multilevel models. Approaches from the frequentist and Bayesian paradigms are discussed. Course objectives include building a conceptual understanding of the various application areas, mathematical models, and the general analysis workflow of hierarchical modelling. Concerning the implementational aspects, we will use the programming language R (particularly the R-packages `lme4` and `brms`). <br>
-[course website](https://buerkner-lab-teaching.github.io/MLM-seminar/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+<!-- [course website](https://buerkner-lab-teaching.github.io/MLM-seminar/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm} -->
 
 **Introduction into Python** (2023/24)
 
 This course provides an introduction in Python and introduces several tools to enable reproducible and reliable programming, including version control with `git`, collaborative programming via `GitHub`, testing with `pytest`, and documentation with `Sphinx`. By the end of the course, students should be capable of working on a project using Python and independently acquiring new Python knowledge.  <br>
-[course website](https://buerkner-lab-teaching.github.io/python-intro/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+<!-- [course website](https://buerkner-lab-teaching.github.io/python-intro/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm} -->
 
 ## Thesis supervision
+
+*2024*
+
++ Influence of different approaches for setting initial values in hyperparameter optimization with SGD | Bachelor thesis | TU Dortmund university
++ Sensitivity Analysis and Performance Evaluation of Varying Upper Thresholds for Discrete Likelihoods Using the Softmax-Gumbel Trick | Master thesis | TU Dortmund university
 
 *2021/22*
 

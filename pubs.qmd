@@ -4,11 +4,18 @@ from: markdown+emoji
 
 ## Publications & Talks
 
+{{< bi chat-text >}} **Bockting F.**, Radev S. T., & Bürkner P. C. (2024). Contributed talk: Normalizing Flows for Simulation Based Expert Prior Elicitation. Presented at [MathPsych](https://mathpsych.org/) (Society for Mathematical Psychology) <br>
+[Slides](files/mathpsych_presentation.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi chat-text >}} **Bockting F.**, Radev S. T., & Bürkner P. C. (2024). Contributed talk: Simulation-Based Prior Knowledge Elicitation for Parametric Bayesian Models. Presented at [ISBA](https://www.unive.it/web/en/2208/home) (International Society for Bayesian Statistics). <br>
+[Slides](files/isba_presentation.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
 {{< bi chat-text >}} **Bockting F.**, Radev S. T., & Bürkner P. C. (2024). Invited talk: Simulation-Based Prior Knowledge Elicitation for Parametric Bayesian Models. First presented at [Bayes@Lund](https://www.bayesatlund.com/). <br>
 [Youtube](https://www.youtube.com/watch?v=KFPn7P2mfQw){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[Slides](files/bayesatlund_presentation.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
-{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T., & Bürkner, P. C. (2023). Simulation-Based Prior Knowledge Elicitation for Parametric Bayesian Models. <br>
-[PDF](https://arxiv.org/pdf/2308.11672.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Simulation-based prior knowledge elicitation for parametric Bayesian models. Scientific Reports 14, 17330 (2024). https://doi.org/10.1038/s41598-024-68090-7 <br>
+[PDF](https://doi.org/10.1038/s41598-024-68090-7){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 [ArXiv](https://arxiv.org/abs/2308.11672){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 [project website](/PriorLearning/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
