@@ -6,11 +6,9 @@ from: markdown+emoji
 
 During my bachelor's studies in [business psychology](https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc), I primarily focused on the user perspective, utilizing methods from market research and consumer psychology to address specific content-related questions. I deepened this perspective through internships and research assistant positions at market research institutes such as [Ipsos GmbH](https://www.ipsos.com/en) and [Produkt+Markt GmbH](https://www.produktundmarkt.de/en/).
 
-Simultaneously, I realized that I lacked knowledge in modeling to develop models that are flexible enough to address both content-related questions and the particularity of data adequately. This realization led me to pursue a master's degree in [cognitive science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/), with specializations in artificial intelligence and cognitive psychology. During this time, I gained insights into formal modeling methods and their implementation in R and Python. In particular, I was greatly impressed by the flexibility offered by the Bayesian framework.
+Simultaneously, I realized that I lacked knowledge in programming and modeling to develop models that are flexible enough to address both content-related questions and the particularity of data adequately. This realization led me to pursue a master's degree in [cognitive science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/), with specializations in artificial intelligence and cognitive psychology. During this time, I gained insights into formal modeling methods and their implementation in R and Python. In particular, I was greatly impressed by the flexibility offered by the Bayesian framework.
 
-The desire to further deepen my knowledge in formal modeling, Bayesian statistics, and especially the computational implementation of methods led me to stay in academia as research associate first in [psychological methods](https://www.uni-marburg.de/de/fb04/team-heck) at Philipps-university of Marburg and then in [computational statistics](https://compstat.statistik.tu-dortmund.de/) at TU Dortmund university. Information about my current contributions can be found on [Publications & Talks](pubs.qmd) page as well as on my [project website](/PriorLearning/).
-
-My overarching goal is to integrate the valuable insights from application, methodology, and computational statistics to develop methods that encompass all perspectives.
+The desire to further deepen my knowledge in formal modeling, Bayesian statistics, and especially the computational implementation of methods led me to stay in academia as research associate first in [psychological methods](https://www.uni-marburg.de/de/fb04/team-heck) at Philipps-university of Marburg and then in [computational statistics](https://compstat.statistik.tu-dortmund.de/) at TU Dortmund university. Information about my current contributions can be found on [Publications & Talks](pubs.qmd) page as well as on my [project website](https://florence-bockting.github.io/prior_elicitation/).
 
 {{< bi file-earmark-arrow-down >}} Download my [CV](files/cv-engl-website.pdf).
 
@@ -44,14 +42,14 @@ Vocational training recognized by the IHK (chamber of industry & commerce)
 
 ## Interests
 
-+ data science
-+ computational modeling
-+ machine learning
-+ Bayesian statistics
 + method development
 + research software engineering
-+ open science
-+ philosphy of science
++ computational modeling
++ open science / open source software
++ Bayesian statistics
++ philosophy of science
++ data science
++ machine learning
 
 :::
 

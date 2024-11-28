@@ -26,13 +26,13 @@ format:
 
 :::{#hero-heading}
 
-I am a research associate specialized in method development at the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/) headed by [Paul-Christian Bürkner](https://paul-buerkner.github.io/). 
+I am a research associate specialized in method development at the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/), led by [Paul-Christian Bürkner](https://paul-buerkner.github.io/). 
 
-My current project focuses on developing and implementing a method to translate expert knowledge into corresponding prior distributions for parameters in Bayesian models (see [Publications & Talks](pubs.qmd) and [project website](/PriorLearning)). In pursuit of this objective, I am exploring the integration of methods from both statistics and machine learning.
+My current project focuses on developing and implementing a framework to translate expert knowledge into corresponding prior distributions for parameters in Bayesian models (see [Publications & Talks](pubs.qmd) and [project website](https://florence-bockting.github.io/prior_elicitation/)). This work integrates approaches from both statistics and machine learning.
 
-In the realm of method development, I am particularly fascinated by the intersection of users, methodology, and implementation. Developing effective methods demands a broad understanding across various disciplines, from identifying user needs to statistical-mathematical modeling and computational implementation. I appreciate how this work allows me to draw upon my [interdisciplinary experience](about.qmd) and continually develop myself.
+I am particularly interested in the intersection of users, methodology, and implementation. Developing effective methods requires a broad understanding across multiple disciplines, encompassing everything from identifying user needs to statistical-mathematical modeling and computational implementation. I value how this work enables me to apply my [interdisciplinary experience](about.qmd) and continue to enhance my skills.
 
-Besides pure method development, knowledge transfer and supporting users in their analysis are important to me. From personal experience, I understand that a lot of uncertainty can arise in communication between disciplines, often due to differences in language, mindset, and methodology. I have come to know and appreciate both the user and method perspectives and wish for more knowledge exchange, curiosity, and collaboration across disciplines.
+Beyond method development, I am deeply committed to knowledge transfer and supporting users in their analyses. Having experienced firsthand the challenges that arise from interdisciplinary communication—often rooted in differences in language, mindset, and methodology—I appreciate the importance of fostering curiosity, collaboration, and mutual understanding across disciplines.
 
-Outside of work, you'll mostly find me running, cycling, or hiking in nature.
+Outside of work, I enjoy running, cycling, and hiking in nature.
 :::
