@@ -4,8 +4,12 @@ from: markdown+emoji
 
 ## Publications & Talks
 
-{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Expert-elicitation method for non-parametric joint priors using normalizing flows. Preprint at https://arxiv.org/abs/2411.15826 <br>
+{{< bi file-earmark-text >}} **Bockting, F.** & Bürkner, P. C. (2025). `elicito`: A Python Package for Expert Prior Elicitation. Preprint submitted at ArXiv. <br>
+[ArXiv link will follow soon](){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2025). Expert-elicitation method for non-parametric joint priors using normalizing flows. Statistics and Computing 35, 132. https://doi.org/10.1007/s11222-025-10665-z <br>
 [ArXiv](https://arxiv.org/abs/2411.15826){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+[journal](https://link.springer.com/article/10.1007/s11222-025-10665-z){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
 {{< bi chat-text >}} **Bockting F.**, Radev S. T., & Bürkner P. C. (2024). Contributed talk: Normalizing Flows for Simulation Based Expert Prior Elicitation. Presented at [MathPsych](https://mathpsych.org/) (Society for Mathematical Psychology) <br>
 [Slides](files/mathpsych_presentation.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
@@ -17,7 +21,7 @@ from: markdown+emoji
 [Youtube](https://www.youtube.com/watch?v=KFPn7P2mfQw){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 [Slides](files/bayesatlund_presentation.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
-{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Simulation-based prior knowledge elicitation for parametric Bayesian models. Scientific Reports 14, 17330 (2024). https://doi.org/10.1038/s41598-024-68090-7 <br>
+{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Simulation-based prior knowledge elicitation for parametric Bayesian models. Scientific Reports 14, 17330. https://doi.org/10.1038/s41598-024-68090-7 <br>
 [PDF](https://doi.org/10.1038/s41598-024-68090-7){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 [ArXiv](https://arxiv.org/abs/2308.11672){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 [project website](/prior_elicitation/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}

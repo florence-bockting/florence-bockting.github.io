@@ -3,7 +3,7 @@ from: markdown+emoji
 ---
 ## Teaching
 
-**Introduction into Python** (2024)
+**Introduction into Python** (2024/25)
 
 This course provides an introduction into Python for Bachelor and Master students at the University of Dortmund and introduces several tools to enable reproducible and reliable programming, including python packaging, data wrangling, data visualization, version control and collaborative programming with Git and GitHub. By the end of the course, students should be capable of working on a self-selected project using Python, developing their own Python package and acquiring independently new Python knowledge.
 [course repository](https://github.com/florence-bockting/python-class-24/){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
@@ -21,7 +21,7 @@ This course provides an introduction in Python and introduces several tools to e
 
 ## Thesis supervision
 
-*2024*
+*2024/25*
 
 + Analysis of different initialization approaches for hyperparameter optimization with mini-batch stochastic gradient descent: A simulation study | Bachelor Thesis | TU Dortmund 
 + Sensitivity Analysis and Performance Evaluation of Varying Upper Thresholds for Discrete Likelihoods Using the Softmax-Gumbel Trick | Master thesis | TU Dortmund university

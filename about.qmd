@@ -4,11 +4,34 @@ from: markdown+emoji
 
 ## Background
 
-During my bachelor's studies in [business psychology](https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc), I primarily focused on the user perspective, utilizing methods from market research and consumer psychology to address specific content-related questions. I deepened this perspective through internships and research assistant positions at market research institutes such as [Ipsos GmbH](https://www.ipsos.com/en) and [Produkt+Markt GmbH](https://www.produktundmarkt.de/en/).
+During my bachelor's studies in [Business Psychology](https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc),
+I primarily focused on the user perspective, applying methods from market research and consumer psychology to address
+specific content-related questions.
+I deepened this perspective through internships and research assistant positions at market research institutes such
+as [Ipsos GmbH](https://www.ipsos.com/en) and [Produkt+Markt GmbH](https://www.produktundmarkt.de/en/).
 
-Simultaneously, I realized that I lacked knowledge in programming and modeling to develop models that are flexible enough to address both content-related questions and the particularity of data adequately. This realization led me to pursue a master's degree in [cognitive science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/), with specializations in artificial intelligence and cognitive psychology. During this time, I gained insights into formal modeling methods and their implementation in R and Python. In particular, I was greatly impressed by the flexibility offered by the Bayesian framework.
+At the same time, I realized that I lacked knowledge in programming and modeling. Skills which are essential for
+developing flexible models that could effectively address both substantive research questions and the specific
+characteristics of data.
+This realization motivated me to pursue a master's degree in [Cognitive Science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/),
+with a focus on artificial intelligence and cognitive psychology.
+During this program, I gained experience in formal modeling, Bayesian methods and their implementation in R and Python, whereby
+I was particularly impressed by the flexibility and expressiveness of the Bayesian framework.
 
-The desire to further deepen my knowledge in formal modeling, Bayesian statistics, and especially the computational implementation of methods led me to stay in academia as research associate first in [psychological methods](https://www.uni-marburg.de/de/fb04/team-heck) at Philipps-university of Marburg and then in [computational statistics](https://compstat.statistik.tu-dortmund.de/) at TU Dortmund university. Information about my current contributions can be found on [Publications & Talks](pubs.qmd) page as well as on my [project website](https://florence-bockting.github.io/prior_elicitation/).
+Driven by a desire to deepen my expertise in formal modeling, Bayesian statistics, method development, and the
+computational implementation of statistical methods, I remained in academia.
+I worked first as a research scientist in [Psychological Methods](https://www.uni-marburg.de/de/fb04/team-heck)
+at Philipps-University Marburg, and later in [Computational Statistics](https://compstat.statistik.tu-dortmund.de/)
+at TU Dortmund University.
+
+After several years in academia, my interests evolved toward applying my skills in areas with direct societal impact.
+This led me to my current role as a research scientist at [Climate Resource](https://www.climate-resource.com/), where
+I work at the intersection of climate science research, methodological development, and research software engineering.
+In my current projects I focus among others on the development of new methodologies that integrate satellite-derived
+information in the production of greenhouse gas forcing for Earth System Models.
+
+Information about my current contributions can be found on [Publications & Talks](pubs.qmd) page as well as on my
+[project website](https://florence-bockting.github.io/prior_elicitation/).
 
 {{< bi file-earmark-arrow-down >}} Download my [CV](files/cv-engl-website.pdf).
 
@@ -18,11 +41,14 @@ The desire to further deepen my knowledge in formal modeling, Bayesian statistic
 
 ## Education
 
-:bookmark_tabs: **Research Associate, currently**  
+:bookmark_tabs: **Research Scientist, currently**
+Climate Resource S GmbH, Berlin
+
+:bookmark_tabs: **Research Scientist, currently**
 Statistics Department; *Computational Statistics* <br>
 TU Dortmund university
 
-:bookmark_tabs: **Research Associate, until 2022**  
+:bookmark_tabs: **Research Scientist, until 2022**
 Psychology Department; *Methods \& Statistics* <br>
 Philipps university of Marburg
 
@@ -46,6 +72,7 @@ Vocational training recognized by the IHK (chamber of industry & commerce)
 + research software engineering
 + computational modeling
 + open science / open source software
++ climate science
 + Bayesian statistics
 + philosophy of science
 + data science
