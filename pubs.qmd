@@ -4,8 +4,11 @@ from: markdown+emoji
 
 ## Publications & Talks
 
-{{< bi file-earmark-text >}} **Bockting, F.** & Bürkner, P. C. (2025). `elicito`: A Python Package for Expert Prior Elicitation. Preprint submitted at ArXiv. <br>
-[ArXiv link will follow soon](){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+{{< bi file-earmark-text >}} **Bockting, F.** (2025). Contributed talk: Predictive prior elicitation: State of the art and current challenges. Presented at the [workshop on Bayesian modelling](https://www.cec.lu.se/calendar/workshop-bayesian-modelling) at Lund university <br>
+[Slides](files/2025_lund_workshop.pdf){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
+
+{{< bi file-earmark-text >}} **Bockting, F.** & Bürkner, P. C. (2025). **elicito**: A Python Package for Expert Prior Elicitation. Preprint submitted at ArXiv. <br>
+[ArXiv](https://arxiv.org/abs/2506.16830){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}
 
 {{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2025). Expert-elicitation method for non-parametric joint priors using normalizing flows. Statistics and Computing 35, 132. https://doi.org/10.1007/s11222-025-10665-z <br>
 [ArXiv](https://arxiv.org/abs/2411.15826){.btn .btn-outline-primary .btn role="button" .btn-page-header .btn-sm}

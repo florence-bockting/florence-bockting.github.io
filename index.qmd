@@ -29,27 +29,16 @@ format:
 I am a research scientist specializing in method development and research software engineering. I divide my time between
 two roles: at [Climate Resource](https://www.climate-resource.com/) I work on method development, climate science
 research, and research software engineering.
-Besides, I work at the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/),
+Additionally, I am affiliated with the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/),
 led by [Paul-Christian Bürkner](https://paul-buerkner.github.io/), where I am focusing on the development of
 computational methods.
 
-My current academic project involves developing and implementing a framework to translate expert knowledge into prior
-distributions for parameters in Bayesian models (see [Publications & Talks](pubs.qmd) and
-[project website](https://florence-bockting.github.io/elicito/)). This work combines concepts from statistics and
-machine learning. At Climate Resource, I focus on developing methods to integrate satellite-derived data into the
-production of greenhouse gas forcing inputs for Earth System Models. This work sits at the intersection of
-environmental science, method development, and research software engineering.
+My current academic project focuses on developing and implementing a framework to translate expert knowledge into prior distributions for parameters in Bayesian models (cf. *prior elicitation*, see [Publications & Talks](pubs.qmd) and [project website](https://florence-bockting.github.io/elicito/)). This work combines concepts from statistics and
+machine learning. At Climate Resource, I primarily work as a research software engineer, developing data pipelines for various projects. In one of my main current projects, we create data pipelines and methods to integrate greenhouse gas data from multiple sources, both ground-based and satellite-derived, into a composite dataset suitable for use by climate models.
 
-I am particularly interested in the intersection of users, methodology, and implementation. Developing effective methods
-requires a broad understanding across multiple disciplines, encompassing everything from identifying user needs to
-statistical-mathematical modeling and computational implementation. I appreciate the [interdisciplinary nature](about.qmd)
-of my work, as it continually challenges my current state of understanding, broadens my perspective, and allows me to
-keep learning.
+I am particularly interested in the intersection of users, methodology, and implementation. Developing effective methods requires a broad, interdisciplinary understanding, from identifying user needs to statistical and mathematical modeling, to computational implementation. I value the interdisciplinary nature of my work, as it continually challenges my understanding, broadens my perspective, and allows me to keep learning.
 
-Beyond method development, I am particularly interested in knowledge transfer.
-Having experienced firsthand the challenges of interdisciplinary collaboration, often due to differences
-in language, acquired mindset, and methodology, I value the importance of fostering curiosity, collaboration, and mutual
-understanding across fields.
+Beyond method development, I am particularly interested in knowledge transfer. Having experienced firsthand the challenges of interdisciplinary collaboration, often stemming from differences in language, mindset, and methodology, I deeply value fostering curiosity, collaboration, and mutual understanding across fields.
 
-Outside of work, I enjoy running, cycling, and hiking in nature.
+When I'm not working, I enjoy running, cycling, and hiking in nature.
 :::

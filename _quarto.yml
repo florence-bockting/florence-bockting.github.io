@@ -13,6 +13,8 @@ website:
         file: index.qmd
       - text: "About"
         file: about.qmd
+      - text: "Tools & Experiences"
+        file: experiences.qmd
       - text: "Publications & Talks"
         file: pubs.qmd
       - text: "Teaching"

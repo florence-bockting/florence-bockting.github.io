@@ -1,4 +1,46 @@
 ---
 from: markdown+emoji
 ---
-## Experiences
+## Package development
+The following is a list of Python packages that I have developed or contributed to.
+
+#### Main contributor/ maintainer
+| Package | Description |
+|---------|-------------|
+| [elicito](https://github.com/florence-bockting/elicito/tree/main) | A Python package for learning prior distributions of model parameters based on expert knowledge ([paper](https://arxiv.org/abs/2506.16830)) |
+| [gradient-aware-harmonisation](https://github.com/climate-resource/gradient-aware-harmonisation) | A Python package that harmonizes two time series using zero- and first-order gradient information. |
+| [GHG-forcing-for-CMIP](https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main) | Pipeline for constructing a composite greenhouse gas dataset from multiple data sources, including ground-based and satellite observations, suitable for use in climate models participating in the Coupled Model Intercomparison Project (CMIP). |
+
+: {tbl-colwidths="[20, 50]"}
+
+#### Collaboration, Contribution
+
+| Package | Description |
+|---------|-------------|
+| [CMIP7-GHG-Concentration-Manuscripts](https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts) | Python package for writing manuscripts in JupyText and converting it into publishable LaTeX PDF file |
+| [input4MIPs_CVs](https://github.com/PCMDI/input4MIPs_CVs) | Controlled vocabularies (CVs) used within the input4MIPs project. The CVs define the allowed terms which can be used for various pieces of metadata. |
+| [GHG-forcing-for-CMIP](https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main) | Pipeline for constructing a composite greenhouse gas dataset from multiple data sources, including ground-based and satellite observations, suitable for use in climate models participating in the Coupled Model Intercomparison Project (CMIP). |
+| [CMIP7 ScenarioMIP GHG Concentrations](https://github.com/climate-resource/cmip7-scenariomip-ghg-concentrations) | Generation of GHG concentration inputs (i.e. forcings) for CMIP7's ScenarioMIP.|
+
+: {tbl-colwidths="[20, 50]"}
+
+## Tools
+The following list highlights some of the tools I use regularly in my work. 
+Click any logo to visit the corresponding website and learn more about each tool.
+
+| Category     | Tools                           |  Notes     |
+|--------------|:--------------------------------|-------|
+|**Programming languages** | [![R](graphics/icon-R.png){width=30}](https://www.r-project.org) [![Python](graphics/icon-python.png){width=30}](https://www.python.org) [![Stan](graphics/icon-stan.png){width=25}](https://mc-stan.org) | |
+| **Version Control** | [![Git](graphics/icon-git.png){width=30}](https://git-scm.com) [![GitHub](graphics/icon-github.png){width=30}](https://github.com) [![GitLab](graphics/icon-gitlab.jpg){width=30}](https://about.gitlab.com)  | [GitHub profile](https://github.com/florence-bockting), [GitLab profile](https://gitlab.com/florence-bockting) | 
+| **Package and Environment manager** | [![uv](graphics/icon-uv.png){width=30}](https://docs.astral.sh/uv/) [![pip](graphics/icon-pip.jpg){width=40}](https://pypi.org/project/pip/) [![poetry](graphics/icon-poetry.jpg){width=60}](https://python-poetry.org) [![pixi](graphics/icon-pixi.png){width=35}](https://pixi.sh/latest/) [![pdm](graphics/icon-pdm.png){width=60}](https://pdm-project.org/en/latest/) | |
+| **Testing, Linting, and Formatting** | [![numpy](graphics/icon-numpy.svg){width=70}](https://numpy.org/doc/2.2/reference/routines.testing.html) [![pytest](graphics/icon-pytest.jpg){width=40}](https://docs.pytest.org/en/stable/) [![black](graphics/icon-black.png){width=50}](https://black.readthedocs.io/en/stable/) [![mypy](graphics/icon-mypy.jpg){width=70}](https://mypy-lang.org) [![ruff](graphics/icon-ruff.png){width=30}](https://docs.astral.sh/ruff/) | [example-1](https://github.com/florence-bockting/elicito/tree/main/tests), [example-2](https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main/tests), <br> [example-3](https://github.com/climate-resource/gradient-aware-harmonisation/tree/main/tests) |
+| **Continuous integration and Testing** | CI pipelines using GitHub actions | [example workflows](https://github.com/florence-bockting/elicito/tree/main/.github/workflows) |
+| **Publishing** | [![pypi](graphics/icon-pypi.svg){width=50}](https://pypi.org) [![conda-forge](graphics/icon-conda-forge.png){width=50}](https://conda-forge.org) | PyPI: [example-1](https://pypi.org/project/elicito/), [example-2](https://pypi.org/project/gradient-aware-harmonisation/) <br> Conda-forge: [example-1](https://github.com/conda-forge/elicito-feedstock), [example-2](https://github.com/conda-forge/gradient-aware-harmonisation-feedstock) |
+| **Documentation** | [![sphinx](graphics/icon-sphinx.png){width=70}](https://www.sphinx-doc.org/en/master/) [![RTD](graphics/icon-rtd.jpg){width=80}](https://about.readthedocs.com) | [example using sphinx](https://florence-bockting.github.io/elicit/) <br> [example using RtD](https://elicito.readthedocs.io/en/latest/) |
+| **Reporting** | [![juypyter](graphics/icon-jupyter-notebook.jpg){width=30}](https://jupyter.org) [![quarto](graphics/icon-quarto.png){width=60}](https://quarto.org) [![jupytext](graphics/icon-jupytext.svg){width=40}](https://jupytext.readthedocs.io/en/latest/) [![overleaf](graphics/icon-overleaf.jpg){width=40}](https://www.overleaf.com/project) | [example](https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts) |
+| **Apps** | [![shiny](graphics/icon-shiny.jpg){width=30}](https://shiny.posit.co) | [example]( https://mixed-effects-models.shinyapps.io/shiny_app/)|
+| **Workflow orchestration** | [![prefect](graphics/icon-prefect.jpg){width=30}](https://www.prefect.io) | [example](https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main) |
+| **Operating Systems** | [![windows](graphics/icon-windows.png){width=30}](https://www.microsoft.com/) [![linux](graphics/icon-linux.jpg){width=30}](https://ubuntu.com) | |
+| **High performance computing** | [Linux-HPC-Clusters](https://lido.itmc.tu-dortmund.de/lido3/) at TU Dortmund University <br> National Energy Research Scientific Computing Center ([NERSC](https://www.nersc.gov)) | |
+
+: {tbl-colwidths="[30, 50, 40]"}
