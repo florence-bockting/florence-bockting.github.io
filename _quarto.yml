@@ -24,6 +24,8 @@ website:
         href: mailto:florence.bockting@tu-dortmund.de
       - icon: github
         href: https://github.com/florence-bockting
+      - icon: bluesky
+        href: https://bsky.app/profile/florencebockting.bsky.social
 
   page-footer: 
     left: ":copyright: 2025, Florence Bocking" 
@@ -32,6 +34,8 @@ website:
         href: mailto:florence.bockting@tu-dortmund.de
       - icon: github
         href: https://github.com/florence-bockting
+      - icon: bluesky
+        href: https://bsky.app/profile/florencebockting.bsky.social
 
 format:
   html:

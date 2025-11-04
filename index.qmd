@@ -18,6 +18,9 @@ about:
     - text: GitHub
       icon: github
       href: https://github.com/florence-bockting
+    - text: BlueSky
+      icon: bluesky
+      href: https://bsky.app/profile/florencebockting.bsky.social
       
 format: 
   html:

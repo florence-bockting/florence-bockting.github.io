@@ -114,9 +114,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
     <a href="mailto:florence.bockting@tu-dortmund.de" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope-fill"></i></a>
     <a href="https://github.com/florence-bockting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://bsky.app/profile/florencebockting.bsky.social" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-bluesky"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -187,10 +188,6 @@ ul.task-list li input[type="checkbox"] {
 <td>Controlled vocabularies (CVs) used within the input4MIPs project. The CVs define the allowed terms which can be used for various pieces of metadata.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main">GHG-forcing-for-CMIP</a></td>
-<td>Pipeline for constructing a composite greenhouse gas dataset from multiple data sources, including ground-based and satellite observations, suitable for use in climate models participating in the Coupled Model Intercomparison Project (CMIP).</td>
-</tr>
-<tr class="even">
 <td><a href="https://github.com/climate-resource/cmip7-scenariomip-ghg-concentrations">CMIP7 ScenarioMIP GHG Concentrations</a></td>
 <td>Generation of GHG concentration inputs (i.e.&nbsp;forcings) for CMIP7’s ScenarioMIP.</td>
 </tr>
@@ -266,11 +263,16 @@ ul.task-list li input[type="checkbox"] {
 <td><a href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main">example</a></td>
 </tr>
 <tr class="odd">
+<td><strong>Data Management</strong></td>
+<td style="text-align: left;"><a href="https://zenodo.org"><img src="graphics/icon-zenodo.png" class="img-fluid" width="70" alt="zenodo"></a> <a href="https://osf.io"><img src="graphics/icon-osf.png" class="img-fluid" width="70" alt="osf"></a></td>
+<td><a href="https://osf.io/user/mbpx7">OSF account</a>, <a href="https://zenodo.org/records/15671710">Zenodo example</a></td>
+</tr>
+<tr class="even">
 <td><strong>Operating Systems</strong></td>
 <td style="text-align: left;"><a href="https://www.microsoft.com/"><img src="graphics/icon-windows.png" class="img-fluid" width="30" alt="windows"></a> <a href="https://ubuntu.com"><img src="graphics/icon-linux.jpg" class="img-fluid" width="30" alt="linux"></a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>High performance computing</strong></td>
 <td style="text-align: left;"><a href="https://lido.itmc.tu-dortmund.de/lido3/">Linux-HPC-Clusters</a> at TU Dortmund University <br> National Energy Research Scientific Computing Center (<a href="https://www.nersc.gov">NERSC</a>)</td>
 <td></td>
@@ -355,7 +357,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/7b02fc3e-4858-46bf-b75b-2763baa941fa\.netlify\.app\/");
+        var filterRegex = new RegExp("https:\/\/florence-bockting\.quarto\.pub\/f-bockting");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -702,6 +704,12 @@ ul.task-list li input[type="checkbox"] {
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/florence-bockting">
       <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/profile/florencebockting.bsky.social">
+      <i class="bi bi-bluesky" role="img">
 </i> 
     </a>
   </li>  
