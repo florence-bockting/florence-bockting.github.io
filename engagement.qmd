@@ -1,0 +1,145 @@
+---
+from: markdown+emoji
+format:
+  html:
+    page-layout: full
+---
+
+## Engagement
+
+Beyond the development of open-source software, I contribute to teaching and lesson development, mentor students in open-source programmes, stay active in research software engineering, and work myself into new areas to improve my skill set.
+
+```{=html}
+<div class="oss-section">
+
+  <div class="oss-group-label maintainer-label">Teaching &amp; mentoring</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://carpentries-incubator.github.io/hpc-workflows/" target="_blank" rel="noopener">Carpentries lesson maintainer</a>
+        <div class="engagement-badges">
+          <span class="badge badge-community">Carpentries</span>
+        </div>
+      </div>
+      <p class="pkg-desc">HPC Workflow Management with Snakemake: Carpentries Incubator lesson on building reproducible HPC pipelines with Snakemake; covering rules, cluster execution, and workflow patterns on shared compute systems.</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://carpentries-incubator.github.io/hpc-workflows/" target="_blank" rel="noopener">Lesson</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://www.stancon2026.org/tutorials/" target="_blank" rel="noopener">Tutorial at StanCon 2026</a>
+        <div class="engagement-badges">
+          <span class="badge badge-bayes">Co-instructor</span>
+          <span class="badge badge-community">Stan</span>
+        </div>
+      </div>
+      <p class="pkg-desc">StanCon 2026 tutorial on contributing to Stan's C++ and OCaml core, R interfaces, and development workflow; using good-first issues to guide participants toward their first merge.</p>
+      <p class="engagement-meta">StanCon 2026 · Uppsala · 17–21 August 2026</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.stancon2026.org/tutorials/" target="_blank" rel="noopener">Tutorial</a>
+        <a class="pkg-action-link" href="https://www.stancon2026.org/" target="_blank" rel="noopener">Conference</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://summerofcode.withgoogle.com/programs/2026/projects/xjU1hvkm" target="_blank" rel="noopener">Google Summer of Code 2026</a>
+        <div class="engagement-badges">
+          <span class="badge badge-meta">Mentor</span>
+          <span class="badge badge-community">Stan</span>
+        </div>
+      </div>
+      <p class="pkg-desc">Global programme that pairs contributors with open-source organizations for a paid, mentored summer of software development on real project codebases.</p>
+      <p class="engagement-meta">2026</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://summerofcode.withgoogle.com/programs/2026/projects/xjU1hvkm" target="_blank" rel="noopener">Project</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="oss-group-label contributor-label">Upcoming Events</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://www.eventbrite.com/e/citconai-europe-2026-helsinki-tickets-1982737371853" target="_blank" rel="noopener">CITCON:AI Europe 2026</a>
+      </div>
+      <p class="pkg-desc">Open Space conference where practitioners discuss continuous improvement in software development, delivery, operations, and AI.</p>
+      <p class="engagement-meta">Helsinki · 22–23 May 2026</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.eventbrite.com/e/citconai-europe-2026-helsinki-tickets-1982737371853" target="_blank" rel="noopener">Event</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://haic.fi/research/secure-systems-demo-day-2026/" target="_blank" rel="noopener">Secure Systems Demo Day 2026</a>
+        <div class="engagement-badges">
+          <span class="badge badge-community">HAIC</span>
+        </div>
+      </div>
+      <p class="pkg-desc">Annual HAIC showcase of information-security research in the Helsinki capital region; research talks, poster demos, industry desks, and networking across academia and industry.</p>
+      <p class="engagement-meta">Aalto University, Espoo · 5 June 2026</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://haic.fi/research/secure-systems-demo-day-2026/" target="_blank" rel="noopener">Event</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="oss-group-label contributor-label">Professional development</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://fitech.io/en/studies/introduction-to-cybersecurity/" target="_blank" rel="noopener">Introduction to cybersecurity</a>
+        <div class="engagement-badges">
+          <span class="badge badge-community">FITech</span>
+        </div>
+      </div>
+      <p class="pkg-desc">Course on cybersecurity goals, cryptography, firewalls, application security, and the evolution of malware, University of Turku.</p>
+      <p class="engagement-meta">Online · In progress</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://fitech.io/en/studies/introduction-to-cybersecurity/" target="_blank" rel="noopener">Course</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://fitech.io/en/studies/introductory-penetration-testing-and-security-assessment/" target="_blank" rel="noopener">Introductory penetration testing</a>
+        <div class="engagement-badges">
+          <span class="badge badge-community">FITech</span>
+        </div>
+      </div>
+      <p class="pkg-desc">Course on penetration-testing foundations, techniques and tools for web, network, cloud, and IoT security, plus reporting standards and regulatory context.</p>
+      <p class="engagement-meta">Jun-Aug 2026</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://fitech.io/en/studies/introductory-penetration-testing-and-security-assessment/" target="_blank" rel="noopener">Course</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://training.linuxfoundation.org/training/developing-secure-software-lfd121/" target="_blank" rel="noopener">Developing Secure Software</a>
+        <div class="engagement-badges">
+          <span class="badge badge-community">OpenSSF</span>
+        </div>
+      </div>
+      <p class="pkg-desc">Course on secure requirements, design, implementation, verification, and supply-chain practices—helping developers build software hardened against common attacks.</p>
+      <p class="engagement-meta">Online · In progress</p>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://training.linuxfoundation.org/training/developing-secure-software-lfd121/" target="_blank" rel="noopener">Course</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+```

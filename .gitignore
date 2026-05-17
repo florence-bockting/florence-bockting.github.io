@@ -6,3 +6,10 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+# CV build artifacts (render with: ./render-cv.sh)
+cv.typ
+cv-engl.pdf
+docs/cv-engl.pdf
+files/cv-engl-2-preview.html
+files/cv-engl-2-preview-media/

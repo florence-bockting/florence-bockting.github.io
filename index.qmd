@@ -1,47 +1,173 @@
 ---
-title: Florence Bockting
-subtitle: "Research Scientist"
-
 from: markdown+emoji
-
-image: graphics/profile.png
-
-about:
-  template: trestles
-  image-width: 15em
-  image-shape: round
-  
-  links:
-    - text: Email
-      icon: envelope-fill
-      href: mailto:florence.bockting@tu-dortmund.de
-    - text: GitHub
-      icon: github
-      href: https://github.com/florence-bockting
-    - text: BlueSky
-      icon: bluesky
-      href: https://bsky.app/profile/florencebockting.bsky.social
-      
-format: 
-  html:
-    page-layout: full
 ---
 
-:::{#hero-heading}
+## About
+::: {.columns}
 
-I am a research scientist specializing in method development and research software engineering. I divide my time between
-two roles: at [Climate Resource](https://www.climate-resource.com/) I work on method development, climate science
-research, and research software engineering.
-Additionally, I am affiliated with the [Chair of Computational Statistics at TU Dortmund](https://compstat.statistik.tu-dortmund.de/),
-led by [Paul-Christian Bürkner](https://paul-buerkner.github.io/), where I am focusing on the development of
-computational methods.
+::: {.column width="35%"}
 
-My current academic project focuses on developing and implementing a framework to translate expert knowledge into prior distributions for parameters in Bayesian models (cf. *prior elicitation*, see [Publications & Talks](pubs.qmd) and [project website](https://florence-bockting.github.io/elicito/)). This work combines concepts from statistics and
-machine learning. At Climate Resource, I primarily work as a research software engineer, developing data pipelines for various projects. In one of my main current projects, we create data pipelines and methods to integrate greenhouse gas data from multiple sources, both ground-based and satellite-derived, into a composite dataset suitable for use by climate models.
+```{=html}
+<div class="about-sidebar">
+  <img class="about-photo" src="graphics/profile.jpg" alt="Florence Bockting">
+  <a class="tool-chip about-cv-chip" href="files/florence-bockting-cv-website.pdf" target="_blank" rel="noopener">Download CV</a>
+  <p class="about-summary-links">
+    <a href="software.qmd">Software</a> ·
+    <a href="stack.qmd">Stack</a> ·
+    <a href="research.qmd">Research</a>
+  </p>
+</div>
+```
 
-I am particularly interested in the intersection of users, methodology, and implementation. Developing effective methods requires a broad, interdisciplinary understanding, from identifying user needs to statistical and mathematical modeling, to computational implementation. I value the interdisciplinary nature of my work, as it continually challenges my understanding, broadens my perspective, and allows me to keep learning.
-
-Beyond method development, I am particularly interested in knowledge transfer. Having experienced firsthand the challenges of interdisciplinary collaboration, often stemming from differences in language, mindset, and methodology, I deeply value fostering curiosity, collaboration, and mutual understanding across fields.
-
-When I'm not working, I enjoy running, cycling, and hiking in nature.
 :::
+
+::: {.column width="65%"}
+
+I am a postdoctoral research software engineer in the [Bayesian Workflow Group](https://users.aalto.fi/~ave/group.html) at Aalto University, Finland, where I implement new developments in Bayesian statistics into software, primarily within the [Stan ecosystem](https://mc-stan.org). My work spans method development, end-to-end data and modelling workflows, and open, well-tested research software in Python and R.
+
+Previously I built greenhouse-gas concentration data pipelines at [Climate Resource GmbH](https://www.climate-resource.com) and completed a doctorate in [computational statistics](https://paulbuerkner.com/people/) at TU Dortmund University on simulation-based expert prior elicitation ([elicito](https://pypi.org/project/elicito/)).
+
+:::
+
+:::
+
+```{=html}
+<div class="about-meta-band">
+
+  <div class="about-meta-row">
+    <span class="about-section-label">Contact</span>
+    <div class="about-chips about-chips-inline">
+      <a class="tool-chip" href="mailto:florence.bockting@tu-dortmund.de">Email</a>
+      <a class="tool-chip" href="https://github.com/florence-bockting" target="_blank" rel="noopener">GitHub</a>
+      <a class="tool-chip" href="https://bsky.app/profile/florencebockting.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+    </div>
+  </div>
+
+  <div class="about-meta-row about-meta-row-skills">
+    <span class="about-section-label">Skills</span>
+    <div class="about-chips about-chips-wrap">
+      <span class="tool-chip">Python</span>
+      <span class="tool-chip">R</span>
+      <span class="tool-chip">Bayesian statistics</span>
+      <span class="tool-chip">Research software engineering</span>
+      <span class="tool-chip">Data pipelines</span>
+      <span class="tool-chip">Reproducible science</span>
+    </div>
+  </div>
+
+  <div class="about-meta-row">
+    <span class="about-section-label">Interests</span>
+    <div class="about-interests about-chips-inline">
+      <span class="badge badge-ts">Open Source</span>
+      <span class="badge badge-bayes">Bayesian methods</span>
+      <span class="badge badge-stats">Data science</span>
+      <span class="badge badge-data">Software security</span>
+      <span class="badge badge-climate">Climate science</span>
+      <span class="badge badge-plotting">Cognitive &amp; social science</span>
+    </div>
+  </div>
+
+</div>
+```
+
+## Background
+
+My path into research software engineering began in applied psychology. During my bachelor's in [Business Psychology](https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc) I focussed on consumer and market research with first practice experiences at [Ipsos GmbH](https://www.ipsos.com/en) and [Produkt+Markt GmbH](https://www.produktundmarkt.de/en/). To deepen my computational and statistical skills I followed up with a master's in [Cognitive Science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/) with a focus on formal modelling, Bayesian methods, and their implementation in R and Python.
+
+In academia I worked at Philipps-University Marburg and TU Dortmund University, where I completed my doctorate in computational statistics on expert prior elicitation and developed the open-source Python package [elicito](https://pypi.org/project/elicito/). I then joined [Climate Resource](https://www.climate-resource.com/) as a research scientist and software engineer, developing data pipelines for earth system modelling groups, before moving to Aalto to work at the intersection of Bayesian methodology, research software engineering, and reproducible science.
+
+## Experience
+
+```{=html}
+<div class="cv-timeline">
+
+  <div class="cv-entry cv-entry-current">
+    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2026 – present</div>
+      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
+      <div class="cv-entry-org"><em><a href="https://users.aalto.fi/~ave/group.html">Bayesian Workflow Group</a></em>, Computer Science Department</div>
+      <div class="cv-entry-location">Aalto University, Espoo, Finland</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2025 – 2026</div>
+      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
+      <div class="cv-entry-org"><em><a href="https://www.climate-resource.com/" target="_blank" rel="noopener">Climate Resource GmbH</a></em></div>
+      <div class="cv-entry-location">Berlin, Germany</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2022 – 2025</div>
+      <div class="cv-entry-title">Research Scientist</div>
+      <div class="cv-entry-org"><em><a href="https://compstat.statistik.tu-dortmund.de/" target="_blank" rel="noopener">Computational Statistics</a></em>, Statistics Department</div>
+      <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2020 – 2022</div>
+      <div class="cv-entry-title">Research Scientist</div>
+      <div class="cv-entry-org"><em><a href="https://www.uni-marburg.de/de/fb04/team-heck" target="_blank" rel="noopener">Methods &amp; Statistics</a></em>, Psychology Department</div>
+      <div class="cv-entry-location">Philipps-University Marburg, Marburg, Germany</div>
+    </div>
+  </div>
+
+</div>
+```
+
+## Education
+
+```{=html}
+<div class="cv-timeline">
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2026</div>
+      <div class="cv-entry-title">Doctorate in Computational Statistics</div>
+      <div class="cv-entry-org"><em>Simulation-based expert prior elicitation: Method and software development</em></div>
+      <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2020</div>
+      <div class="cv-entry-title">M.Sc. in Cognitive Science</div>
+      <div class="cv-entry-org"><em>Majors: Cognitive modelling &amp; Artificial intelligence</em></div>
+      <div class="cv-entry-location">University of Osnabrück, Osnabrück, Germany</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2018</div>
+      <div class="cv-entry-title">B.Sc. in Business Psychology</div>
+      <div class="cv-entry-org"><em>Majors: Market research &amp; Consumer behaviour</em></div>
+      <div class="cv-entry-location">University of Applied Sciences Harz, Wernigerode, Germany</div>
+    </div>
+  </div>
+
+  <div class="cv-entry">
+    <div class="cv-entry-marker"><i class="bi bi-patch-check" role="img" aria-hidden="true"></i></div>
+    <div class="cv-entry-content">
+      <div class="cv-entry-date">2014</div>
+      <div class="cv-entry-title">Marketing Communications Specialist</div>
+      <div class="cv-entry-org">Vocational training certified by IHK (Chamber of Industry &amp; Commerce)</div>
+      <div class="cv-entry-location">Dresden-Informatik GmbH, Dresden, Germany</div>
+    </div>
+  </div>
+
+</div>
+```

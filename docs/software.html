@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>F. Bockting</title>
+<title>software – F. Bockting</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,11 +92,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link active" href="./software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
@@ -123,166 +123,157 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="about-sidebar">
-  <img class="about-photo" src="graphics/profile.jpg" alt="Florence Bockting">
-  <a class="tool-chip about-cv-chip" href="files/florence-bockting-cv-website.pdf" target="_blank" rel="noopener">Download CV</a>
-  <p class="about-summary-links">
-    <a href="./software.html">Software</a> ·
-    <a href="./stack.html">Stack</a> ·
-    <a href="./research.html">Research</a>
-  </p>
-</div>
-</div><div class="column" style="width:65%;">
-<p>I am a postdoctoral research software engineer in the <a href="https://users.aalto.fi/~ave/group.html">Bayesian Workflow Group</a> at Aalto University, Finland, where I implement new developments in Bayesian statistics into software, primarily within the <a href="https://mc-stan.org">Stan ecosystem</a>. My work spans method development, end-to-end data and modelling workflows, and open, well-tested research software in Python and R.</p>
-<p>Previously I built greenhouse-gas concentration data pipelines at <a href="https://www.climate-resource.com">Climate Resource GmbH</a> and completed a doctorate in <a href="https://paulbuerkner.com/people/">computational statistics</a> at TU Dortmund University on simulation-based expert prior elicitation (<a href="https://pypi.org/project/elicito/">elicito</a>).</p>
-</div>
-</div>
-<div class="about-meta-band">
+<section id="open-source-software" class="level2">
+<h2 class="anchored" data-anchor-id="open-source-software">Open Source Software</h2>
+<p>Open-source software is central to how I work, as a maintainer of Python packages in Bayesian methodology and climate data pipelines, and as a contributor to established R packages in the Stan ecosystem. For the tooling behind this work, see the <a href="./stack.html">Stack</a> page.</p>
+<div class="oss-section">
 
-  <div class="about-meta-row">
-    <span class="about-section-label">Contact</span>
-    <div class="about-chips about-chips-inline">
-      <a class="tool-chip" href="mailto:florence.bockting@tu-dortmund.de">Email</a>
-      <a class="tool-chip" href="https://github.com/florence-bockting" target="_blank" rel="noopener">GitHub</a>
-      <a class="tool-chip" href="https://bsky.app/profile/florencebockting.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+  <div class="oss-group-label maintainer-label">Maintainer / Author</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/florence-bockting/elicito/tree/main" target="_blank" rel="noopener">elicito</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Python package for learning prior distributions of model parameters from expert knowledge.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://arxiv.org/abs/2506.16830" target="_blank" rel="noopener">Paper</a>
+        <a class="pkg-action-link" href="https://pypi.org/project/elicito/" target="_blank" rel="noopener">PyPI</a>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/" target="_blank" rel="noopener">Docs</a>
+      </div>
     </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/gradient-aware-harmonisation" target="_blank" rel="noopener">gradient-aware-harmonisation</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Python package for harmonizing two time series using zero- and first-order gradient information.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Time Series</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main" target="_blank" rel="noopener">GHG-forcing-for-CMIP</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Pipeline for constructing a composite greenhouse gas dataset from ground-based and satellite observations, suitable as forcing input for climate models in CMIP.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Data Pipeline</span>
+      </div>
+    </div>
+
   </div>
 
-  <div class="about-meta-row about-meta-row-skills">
-    <span class="about-section-label">Skills</span>
-    <div class="about-chips about-chips-wrap">
-      <span class="tool-chip">Python</span>
-      <span class="tool-chip">R</span>
-      <span class="tool-chip">Bayesian statistics</span>
-      <span class="tool-chip">Research software engineering</span>
-      <span class="tool-chip">Data pipelines</span>
-      <span class="tool-chip">Reproducible science</span>
+  <div class="oss-group-label contributor-label">Contributor</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://mc-stan.org/loo/" target="_blank" rel="noopener">loo</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">Efficient leave-one-out cross-validation and WAIC for Bayesian models.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
     </div>
-  </div>
 
-  <div class="about-meta-row">
-    <span class="about-section-label">Interests</span>
-    <div class="about-interests about-chips-inline">
-      <span class="badge badge-ts">Open Source</span>
-      <span class="badge badge-bayes">Bayesian methods</span>
-      <span class="badge badge-stats">Data science</span>
-      <span class="badge badge-data">Software security</span>
-      <span class="badge badge-climate">Climate science</span>
-      <span class="badge badge-plotting">Cognitive &amp; social science</span>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://mc-stan.org/bayesplot/" target="_blank" rel="noopener">bayesplot</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">Plotting functions for posterior distributions, prior/posterior checks, and MCMC diagnostics.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-plotting">Plotting</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
     </div>
-  </div>
 
-</div>
-</section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>My path into research software engineering began in applied psychology. During my bachelor’s in <a href="https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc">Business Psychology</a> I focussed on consumer and market research with first practice experiences at <a href="https://www.ipsos.com/en">Ipsos GmbH</a> and <a href="https://www.produktundmarkt.de/en/">Produkt+Markt GmbH</a>. To deepen my computational and statistical skills I followed up with a master’s in <a href="https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/">Cognitive Science</a> with a focus on formal modelling, Bayesian methods, and their implementation in R and Python.</p>
-<p>In academia I worked at Philipps-University Marburg and TU Dortmund University, where I completed my doctorate in computational statistics on expert prior elicitation and developed the open-source Python package <a href="https://pypi.org/project/elicito/">elicito</a>. I then joined <a href="https://www.climate-resource.com/">Climate Resource</a> as a research scientist and software engineer, developing data pipelines for earth system modelling groups, before moving to Aalto to work at the intersection of Bayesian methodology, research software engineering, and reproducible science.</p>
-</section>
-<section id="experience" class="level2">
-<h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<div class="cv-timeline">
-
-  <div class="cv-entry cv-entry-current">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2026 – present</div>
-      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
-      <div class="cv-entry-org"><em><a href="https://users.aalto.fi/~ave/group.html">Bayesian Workflow Group</a></em>, Computer Science Department</div>
-      <div class="cv-entry-location">Aalto University, Espoo, Finland</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://mc-stan.org/posterior/" target="_blank" rel="noopener">posterior</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">Tools for manipulating and summarizing posterior and prior distributions.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2025 – 2026</div>
-      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
-      <div class="cv-entry-org"><em><a href="https://www.climate-resource.com/" target="_blank" rel="noopener">Climate Resource GmbH</a></em></div>
-      <div class="cv-entry-location">Berlin, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://paul-buerkner.github.io/brms/" target="_blank" rel="noopener">brms</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">High-level R interface for fitting Bayesian regression models via Stan.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2022 – 2025</div>
-      <div class="cv-entry-title">Research Scientist</div>
-      <div class="cv-entry-org"><em><a href="https://compstat.statistik.tu-dortmund.de/" target="_blank" rel="noopener">Computational Statistics</a></em>, Statistics Department</div>
-      <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts" target="_blank" rel="noopener">CMIP7-GHG-Concentration-Manuscripts</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Reproducible manuscript workflow. JupyText notebooks compiled to publication-ready LaTeX PDFs.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Tooling</span>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2020 – 2022</div>
-      <div class="cv-entry-title">Research Scientist</div>
-      <div class="cv-entry-org"><em><a href="https://www.uni-marburg.de/de/fb04/team-heck" target="_blank" rel="noopener">Methods &amp; Statistics</a></em>, Psychology Department</div>
-      <div class="cv-entry-location">Philipps-University Marburg, Marburg, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/PCMDI/input4MIPs_CVs" target="_blank" rel="noopener">input4MIPs_CVs</a>
+        <span class="badge badge-data">Data</span>
+      </div>
+      <p class="pkg-desc">Controlled vocabularies for the input4MIPs project, defining the allowed metadata terms across datasets.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Tooling</span>
+      </div>
     </div>
-  </div>
 
-</div>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<div class="cv-timeline">
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2026</div>
-      <div class="cv-entry-title">Doctorate in Computational Statistics</div>
-      <div class="cv-entry-org"><em>Simulation-based expert prior elicitation: Method and software development</em></div>
-      <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/cmip7-scenariomip-ghg-concentrations" target="_blank" rel="noopener">CMIP7 ScenarioMIP GHG Concentrations</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Generation of greenhouse gas concentration inputs (forcings) for CMIP7's ScenarioMIP.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Data Pipeline</span>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2020</div>
-      <div class="cv-entry-title">M.Sc. in Cognitive Science</div>
-      <div class="cv-entry-org"><em>Majors: Cognitive modelling &amp; Artificial intelligence</em></div>
-      <div class="cv-entry-location">University of Osnabrück, Osnabrück, Germany</div>
-    </div>
   </div>
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2018</div>
-      <div class="cv-entry-title">B.Sc. in Business Psychology</div>
-      <div class="cv-entry-org"><em>Majors: Market research &amp; Consumer behaviour</em></div>
-      <div class="cv-entry-location">University of Applied Sciences Harz, Wernigerode, Germany</div>
-    </div>
-  </div>
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-patch-check" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2014</div>
-      <div class="cv-entry-title">Marketing Communications Specialist</div>
-      <div class="cv-entry-org">Vocational training certified by IHK (Chamber of Industry &amp; Commerce)</div>
-      <div class="cv-entry-location">Dresden-Informatik GmbH, Dresden, Germany</div>
-    </div>
-  </div>
-
 </div>
 
 

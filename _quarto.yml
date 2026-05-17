@@ -1,24 +1,29 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!cv.qmd"
   
 website:
   
   title: "F. Bockting"
   navbar:
     background: primary
+    pinned: true
     search: true
     left:
       - text: "Home"
         file: index.qmd
-      - text: "About"
-        file: about.qmd
-      - text: "Tools & Experiences"
-        file: experiences.qmd
-      - text: "Publications & Talks"
-        file: pubs.qmd
-      - text: "Teaching"
-        file: teaching.qmd
+      - text: "Software"
+        file: software.qmd
+      - text: "Stack"
+        file: stack.qmd
+      - text: "Engagement"
+        file: engagement.qmd
+      - text: "Research"
+        file: research.qmd
+
     tools:
       - icon: envelope-fill
         href: mailto:florence.bockting@tu-dortmund.de
@@ -26,9 +31,11 @@ website:
         href: https://github.com/florence-bockting
       - icon: bluesky
         href: https://bsky.app/profile/florencebockting.bsky.social
+      - icon: linkedin
+        href: https://linkedin.com/in/florence-b-3a4037321
 
   page-footer: 
-    left: ":copyright: 2025, Florence Bocking" 
+    left: ":copyright: 2026, Florence Bocking" 
     right: 
       - icon: envelope-fill
         href: mailto:florence.bockting@tu-dortmund.de
@@ -36,11 +43,16 @@ website:
         href: https://github.com/florence-bockting
       - icon: bluesky
         href: https://bsky.app/profile/florencebockting.bsky.social
+      - icon: linkedin
+        href: https://linkedin.com/in/florence-b-3a4037321
 
 format:
   html:
-    theme: sandstone
+    theme:
+      - sandstone
+      - custom.scss
     css: styles.css
-    
-  
+
+filters:
+  - badge.lua
     

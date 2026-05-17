@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>F. Bockting</title>
+<title>stack – F. Bockting</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./stack.html"> 
+    <a class="nav-link active" href="./stack.html" aria-current="page"> 
 <span class="menu-text">Stack</span></a>
   </li>  
   <li class="nav-item">
@@ -123,164 +123,257 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<div class="about-sidebar">
-  <img class="about-photo" src="graphics/profile.jpg" alt="Florence Bockting">
-  <a class="tool-chip about-cv-chip" href="files/florence-bockting-cv-website.pdf" target="_blank" rel="noopener">Download CV</a>
-  <p class="about-summary-links">
-    <a href="./software.html">Software</a> ·
-    <a href="./stack.html">Stack</a> ·
-    <a href="./research.html">Research</a>
-  </p>
-</div>
-</div><div class="column" style="width:65%;">
-<p>I am a postdoctoral research software engineer in the <a href="https://users.aalto.fi/~ave/group.html">Bayesian Workflow Group</a> at Aalto University, Finland, where I implement new developments in Bayesian statistics into software, primarily within the <a href="https://mc-stan.org">Stan ecosystem</a>. My work spans method development, end-to-end data and modelling workflows, and open, well-tested research software in Python and R.</p>
-<p>Previously I built greenhouse-gas concentration data pipelines at <a href="https://www.climate-resource.com">Climate Resource GmbH</a> and completed a doctorate in <a href="https://paulbuerkner.com/people/">computational statistics</a> at TU Dortmund University on simulation-based expert prior elicitation (<a href="https://pypi.org/project/elicito/">elicito</a>).</p>
-</div>
-</div>
-<div class="about-meta-band">
+<section id="stack" class="level2">
+<h2 class="anchored" data-anchor-id="stack">Stack</h2>
+<p>I build maintainable Python and R software and reproducible research artifacts, from tested packages and CI workflows to published documentation. My goal is to build FAIR (findable, accessible, interoperable, reusable) software which can be reused by the community. See <a href="./software.html">Software</a> for more information about my work on open-source software and <a href="./index.html">Home</a> for getting some impression of my background.</p>
+<div class="oss-section">
 
-  <div class="about-meta-row">
-    <span class="about-section-label">Contact</span>
-    <div class="about-chips about-chips-inline">
-      <a class="tool-chip" href="mailto:florence.bockting@tu-dortmund.de">Email</a>
-      <a class="tool-chip" href="https://github.com/florence-bockting" target="_blank" rel="noopener">GitHub</a>
-      <a class="tool-chip" href="https://bsky.app/profile/florencebockting.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+  <div class="oss-group-label contributor-label">Languages &amp; environments</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Programming Languages</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.python.org" target="_blank" rel="noopener">Python</a>
+        <a class="pkg-action-link" href="https://www.r-project.org" target="_blank" rel="noopener">R</a>
+        <a class="pkg-action-link" href="https://mc-stan.org" target="_blank" rel="noopener">Stan</a>
+      </div>
     </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Package &amp; Environment Management</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://docs.astral.sh/uv/" target="_blank" rel="noopener">uv</a>
+        <a class="pkg-action-link" href="https://pypi.org/project/pip/" target="_blank" rel="noopener">pip</a>
+        <a class="pkg-action-link" href="https://python-poetry.org" target="_blank" rel="noopener">poetry</a>
+        <a class="pkg-action-link" href="https://pixi.sh/latest/" target="_blank" rel="noopener">pixi</a>
+        <a class="pkg-action-link" href="https://rstudio.github.io/renv/" target="_blank" rel="noopener">renv</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting/elicito" target="_blank" rel="noopener">elicito</a>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP" target="_blank" rel="noopener">GHG-forcing</a>
+      </div>
+    </div>
+
   </div>
 
-  <div class="about-meta-row about-meta-row-skills">
-    <span class="about-section-label">Skills</span>
-    <div class="about-chips about-chips-wrap">
-      <span class="tool-chip">Python</span>
-      <span class="tool-chip">R</span>
-      <span class="tool-chip">Bayesian statistics</span>
-      <span class="tool-chip">Research software engineering</span>
-      <span class="tool-chip">Data pipelines</span>
-      <span class="tool-chip">Reproducible science</span>
+  <div class="oss-group-label contributor-label">Build &amp; quality</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Version Control</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://git-scm.com" target="_blank" rel="noopener">Git</a>
+        <a class="pkg-action-link" href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a class="pkg-action-link" href="https://about.gitlab.com" target="_blank" rel="noopener">GitLab</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Profiles:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting" target="_blank" rel="noopener">github.com/florence-bockting</a>
+        <a class="pkg-action-link" href="https://gitlab.com/florence-bockting" target="_blank" rel="noopener">gitlab.com/florence-bockting</a>
+      </div>
     </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Testing, Linting &amp; Formatting</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://docs.pytest.org/en/stable/" target="_blank" rel="noopener">pytest</a>
+        <a class="pkg-action-link" href="https://black.readthedocs.io/en/stable/" target="_blank" rel="noopener">black</a>
+        <a class="pkg-action-link" href="https://mypy-lang.org" target="_blank" rel="noopener">mypy</a>
+        <a class="pkg-action-link" href="https://docs.astral.sh/ruff/" target="_blank" rel="noopener">ruff</a>
+        <a class="pkg-action-link" href="https://testthat.r-lib.org" target="_blank" rel="noopener">testthat</a>
+        <a class="pkg-action-link" href="https://lintr.r-lib.org" target="_blank" rel="noopener">lintr</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting/elicito/tree/main/tests" target="_blank" rel="noopener">elicito tests</a>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main/tests" target="_blank" rel="noopener">GHG-forcing tests</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Continuous Integration</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting/elicito/tree/main/.github/workflows" target="_blank" rel="noopener">elicito workflows</a>
+      </div>
+    </div>
+
   </div>
 
-  <div class="about-meta-row">
-    <span class="about-section-label">Interests</span>
-    <div class="about-interests about-chips-inline">
-      <span class="badge badge-ts">Open Source</span>
-      <span class="badge badge-bayes">Bayesian methods</span>
-      <span class="badge badge-stats">Data science</span>
-      <span class="badge badge-data">Software security</span>
-      <span class="badge badge-climate">Climate science</span>
-      <span class="badge badge-plotting">Cognitive &amp; social science</span>
+  <div class="oss-group-label contributor-label">Release &amp; open science</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Publishing</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://pypi.org" target="_blank" rel="noopener">PyPI</a>
+        <a class="pkg-action-link" href="https://conda-forge.org" target="_blank" rel="noopener">conda-forge</a>
+        <a class="pkg-action-link" href="https://cran.r-project.org" target="_blank" rel="noopener">CRAN</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://pypi.org/project/elicito/" target="_blank" rel="noopener">elicito (PyPI)</a>
+        <a class="pkg-action-link" href="https://pypi.org/project/gradient-aware-harmonisation/" target="_blank" rel="noopener">gradient-aware-harmonisation</a>
+        <a class="pkg-action-link" href="https://github.com/conda-forge/elicito-feedstock" target="_blank" rel="noopener">elicito (conda-forge)</a>
+      </div>
     </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Documentation</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.sphinx-doc.org/en/master/" target="_blank" rel="noopener">Sphinx</a>
+        <a class="pkg-action-link" href="https://about.readthedocs.com" target="_blank" rel="noopener">Read the Docs</a>
+        <a class="pkg-action-link" href="https://roxygen2.r-lib.org" target="_blank" rel="noopener">roxygen2</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/" target="_blank" rel="noopener">elicito docs</a>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/tutorials/" target="_blank" rel="noopener">elicito tutorials</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Data Management</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://zenodo.org" target="_blank" rel="noopener">Zenodo</a>
+        <a class="pkg-action-link" href="https://osf.io" target="_blank" rel="noopener">OSF</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://osf.io/user/mbpx7" target="_blank" rel="noopener">OSF profile</a>
+        <a class="pkg-action-link" href="https://zenodo.org/records/15671710" target="_blank" rel="noopener">Zenodo record</a>
+      </div>
+    </div>
+
   </div>
 
-</div>
-</section>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>My path into research software engineering began in applied psychology. During my bachelor’s in <a href="https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc">Business Psychology</a> I focussed on consumer and market research with first practice experiences at <a href="https://www.ipsos.com/en">Ipsos GmbH</a> and <a href="https://www.produktundmarkt.de/en/">Produkt+Markt GmbH</a>. To deepen my computational and statistical skills I followed up with a master’s in <a href="https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/">Cognitive Science</a> with a focus on formal modelling, Bayesian methods, and their implementation in R and Python.</p>
-<p>In academia I worked at Philipps-University Marburg and TU Dortmund University, where I completed my doctorate in computational statistics on expert prior elicitation and developed the open-source Python package <a href="https://pypi.org/project/elicito/">elicito</a>. I then joined <a href="https://www.climate-resource.com/">Climate Resource</a> as a research scientist and software engineer, developing data pipelines for earth system modelling groups, before moving to Aalto to work at the intersection of Bayesian methodology, research software engineering, and reproducible science.</p>
-</section>
-<section id="experience" class="level2">
-<h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<div class="cv-timeline">
+  <div class="oss-group-label contributor-label">Communicate &amp; scale</div>
 
-  <div class="cv-entry cv-entry-current">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2026 – present</div>
-      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
-      <div class="cv-entry-org"><em><a href="https://users.aalto.fi/~ave/group.html">Bayesian Workflow Group</a></em>, Computer Science Department</div>
-      <div class="cv-entry-location">Aalto University, Espoo, Finland</div>
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Writing &amp; Reporting</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://jupyter.org" target="_blank" rel="noopener">Jupyter</a>
+        <a class="pkg-action-link" href="https://quarto.org" target="_blank" rel="noopener">Quarto</a>
+        <a class="pkg-action-link" href="https://rmarkdown.rstudio.com/index.html" target="_blank" rel="noopener">Rmd</a>
+        <a class="pkg-action-link" href="https://jupytext.readthedocs.io/en/latest/" target="_blank" rel="noopener">JupyText</a>
+        <a class="pkg-action-link" href="https://www.overleaf.com" target="_blank" rel="noopener">Overleaf</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://users.aalto.fi/~ave/casestudies/LOO_uncertainty/loo_uncertainty.html" target="_blank" rel="noopener">LOO tutorial (Rmd)</a>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/tutorials/" target="_blank" rel="noopener">elicito tutorials</a>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts" target="_blank" rel="noopener">CMIP7 manuscripts</a>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2025 – 2026</div>
-      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
-      <div class="cv-entry-org"><em><a href="https://www.climate-resource.com/" target="_blank" rel="noopener">Climate Resource GmbH</a></em></div>
-      <div class="cv-entry-location">Berlin, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Apps</span>
+        <div class="stack-langs">
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://shiny.posit.co" target="_blank" rel="noopener">Shiny</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://mixed-effects-models.shinyapps.io/shiny_app/" target="_blank" rel="noopener">mixed-effects models app</a>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2022 – 2025</div>
-      <div class="cv-entry-title">Research Scientist</div>
-      <div class="cv-entry-org"><em><a href="https://compstat.statistik.tu-dortmund.de/" target="_blank" rel="noopener">Computational Statistics</a></em>, Statistics Department</div>
-      <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Workflow Orchestration</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.prefect.io" target="_blank" rel="noopener">Prefect</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main" target="_blank" rel="noopener">GHG-forcing pipeline</a>
+      </div>
     </div>
-  </div>
 
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2020 – 2022</div>
-      <div class="cv-entry-title">Research Scientist</div>
-      <div class="cv-entry-org"><em><a href="https://www.uni-marburg.de/de/fb04/team-heck" target="_blank" rel="noopener">Methods &amp; Statistics</a></em>, Psychology Department</div>
-      <div class="cv-entry-location">Philipps-University Marburg, Marburg, Germany</div>
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">High Performance Computing</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://lido.itmc.tu-dortmund.de/lido3/" target="_blank" rel="noopener">LIDO3 (TU Dortmund)</a>
+        <a class="pkg-action-link" href="https://www.nersc.gov" target="_blank" rel="noopener">NERSC</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP" target="_blank" rel="noopener">climate data pipelines</a>
+      </div>
     </div>
-  </div>
 
-</div>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<div class="cv-timeline">
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2026</div>
-      <div class="cv-entry-title">Doctorate in Computational Statistics</div>
-      <div class="cv-entry-org"><em>Simulation-based expert prior elicitation: Method and software development</em></div>
-      <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
-    </div>
-  </div>
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2020</div>
-      <div class="cv-entry-title">M.Sc. in Cognitive Science</div>
-      <div class="cv-entry-org"><em>Majors: Cognitive modelling &amp; Artificial intelligence</em></div>
-      <div class="cv-entry-location">University of Osnabrück, Osnabrück, Germany</div>
-    </div>
-  </div>
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-mortarboard" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2018</div>
-      <div class="cv-entry-title">B.Sc. in Business Psychology</div>
-      <div class="cv-entry-org"><em>Majors: Market research &amp; Consumer behaviour</em></div>
-      <div class="cv-entry-location">University of Applied Sciences Harz, Wernigerode, Germany</div>
-    </div>
-  </div>
-
-  <div class="cv-entry">
-    <div class="cv-entry-marker"><i class="bi bi-patch-check" role="img" aria-hidden="true"></i></div>
-    <div class="cv-entry-content">
-      <div class="cv-entry-date">2014</div>
-      <div class="cv-entry-title">Marketing Communications Specialist</div>
-      <div class="cv-entry-org">Vocational training certified by IHK (Chamber of Industry &amp; Commerce)</div>
-      <div class="cv-entry-location">Dresden-Informatik GmbH, Dresden, Germany</div>
-    </div>
   </div>
 
 </div>

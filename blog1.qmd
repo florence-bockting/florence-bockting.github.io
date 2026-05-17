@@ -1,0 +1,127 @@
+## Some reflections on a doctorate in computational method development
+
+### Some personal thoughts on my process
+#### Writing scientific articles - who is the audience?
+I have often struggled to understand the papers of others. Highly complex ideas
+are compressed into very little space; the language is so technical that the
+content becomes hard to parse; and important background is omitted in favour of
+references, effectively requiring the reader to first read those references
+before being able to follow the paper at hand. I find this problematic. I have
+often wished something like a "long-form tutorial version" of articles existed,
+an explanation of the topic "for dummies." For a long time I assumed this
+difficulty reflected my own limited knowledge, but talking with colleagues, I
+learned it is a fairly common experience to simply "not understand the work of
+others." This is actually a significant problem in practice. For example, I was
+aware of work of others that might have been interestin, but I could not parse
+it and therefore could not draw connections. I think this is a widespread issue,
+and part of why researchers tend to stay within their own small sub-communities
+rather than working across them. It leaves me with a genuine question: for whom
+do we actually write papers, and what is a researcher's real goal when
+publishing?
+
+#### Lack of technical and computational training for doctoral students
+In the early stages of my doctoral studies, when I started writing my own 
+scripts in Python and R, the whole endeavour was, looking back on it, 
+quite messy - not because I was careless, but simply because I did not know how
+to do it better. I vividly remember running multiple simulation studies per day
+trying to understand a method's behaviour. I would observe the results, draw
+conclusions, revise my assumptions and expectations, change the code
+(without version control), and run the simulations again. At some point I
+thought I had really interesting results, went to my supervisor, showed them -
+and rerunning the method produced different results. When asked whether I
+could show what had changed and what the earlier results looked like, I had to
+say: I would need to re-implement the code, because I had deleted it. This was
+embarassing and obviously very bad research practice, and I recognized also that 
+something was wrong at that time; the entire process felt unsatisfactory but I
+did not know how to do it differently. Some time later  a colleague mentioned to me the 
+field of research software engineering, and when I looked into it, it felt like
+a door opening onto a world full of tools for good research practice:
+version control, reproducible environments, test-driven development, modularization of code, etc. - backed by a highly welcoming
+community that strongly supports self-learning. I wish universities would
+actively advertise introductory research software engineering courses to all
+doctoral students. It would have made so many things cleaner, easier and, 
+ultimately, faster. 
+
+#### Good software documentation vs. academic incentive structure
+Over the course of my doctoral work, I ended up developing my own Python package
+for the method I had built. This took a great deal of time - and most of that 
+time was not spent on writing code itself, but on writing tutorials and
+documentation that would make the package genuinely usable by others. Here I
+found myself in direct tension with the current academic incentive
+structure, where everything revolves around citations. Writing clean software, 
+documentation, and tutorials takes significant effort and time but is typically
+not linked to citation credit - doing this is "just" community work. 
+As a doctoral student, I feel that at this point I have to choose between doing 
+good community work and moving on to the next project to accumulate citations 
+that might actually advance my academic career. A choice that feels completely 
+ill-posed.
+
+### Starting out in computational science
+The typical workflow I experienced on my path to becoming a computational method
+developer starts, as in most fields, with building theoretical understanding and
+trying to make sense of the problem on my own. At the beginning, I often feel 
+completely overwhelmed when I realize there is an entire historical body of 
+hundreds of publications to read and keep up with. At the same time, I am highly
+motivated and curious about all the interesting knowledge I will encounter 
+during the literature review. Relatively soon, however, I come to find that 
+while there is an enormous amount of literature out there, it is actually quite 
+difficult to understand. The mathematical derivations in particular are rarely 
+obvious or easy to follow. It often feels as though papers are not written with 
+the goal of being readily understandable to the reader.
+(Later, when I started writing my own first papers, I came to understand the 
+conflict that writers of academic papers often face: a very limited space to 
+summarize highly complex ideas, combined with time pressure, leaving little 
+room to write the kind of extended tutorial that would help others actually 
+grasp the method.)
+
+Given my own cognitive and time constraints, I usually build up an initial 
+mental model of the problem - one that, as I now know, is selective and will 
+be overturned and readjusted in the years that follow. This initial model 
+typically generates early pre-prototype ideas, which in my work often develop 
+in parallel with exploratory scripts that help me refine my understanding and 
+sharpen my intuition. After some time, this usually evolves into a prototype, 
+which may itself become the basis for a first publication.
+
+This phase is followed by what I think of as the "understanding phase," which is
+almost always longer than expected. Its goal is to develop a thorough grasp of 
+the entire problem as embodied in the prototype. While I would love to approach
+this theoretically by working out the math and proofs - the problem is usually
+too complex for that, so I end up working from a computational angle instead. 
+This means finding the "knobs" that control the system and tracing how the 
+outcome changes when they are adjusted. I typically start out highly 
+enthusiastic, creating structured tables and notes about relevant variables, 
+their relationships, and so on - until the whole structure collapses under 
+combinatorial explosion and the limits of what my mind can hold in a single 
+coherent model (like a juggler who keeps adding one more ball until everything 
+falls). This stage also tends to be reflected in my code and folder structure, 
+which usually starts out clean and ends up a mess after a few weeks. A colleague
+later described this as the "creative phase," a framing I really like. A phase
+in which it may not even make sense to write clean code, since it will be 
+changed, restructured, or deleted anyway. However, I think the process involved
+in trying to build a structured mental model is nevertheless important for 
+"understanding", it is probably just important to not get too concerned about 
+the messiness of the code and folder structure during this phase.
+
+This phase then typically gives way to arriving at a clearer idea of a 
+computational method, moving beyond the prototype stage. I would not say I have 
+a complete understanding of the problem at this point, but I have identified
+the relevant variables, the method has taken a definite shape, and I have built
+up an internal storyline that allows me to explain the method to myself - and I
+have the feeling it is ready for community feedback. I am acutely aware at this 
+stage that there are many holes in the theory and implementation, and that it is
+far from optimal. Often these holes stem from the limits of my own knowledge,
+and I find myself thinking: If I were a better mathematician... a better 
+computer scientist... a better statistician... my work could be so much
+stronger. But I am who I am, with the knowledge I currently have, so I have to 
+acknowledge those gaps and commit to working on them in the future.
+
+And then, of course, comes the writing stage. I would not claim to be a
+particularly strong writer, so this phase tends to move slowly. What makes it
+difficult is not the act of writing itself, but the work of assembling all the
+small content pieces, the subtasks, the connections, and weaving them into a
+coherent narrative. Sitting down to write a section in the morning can feel, by
+the end of the day, like genuinely hard mental labour, I can almost feel myself
+crunching and twisting my thoughts, reconnecting them, reshaping them until
+something coherent emerges. I am often surprised at the end by what I have
+written, because at the start I would never have believed I could produce such
+a section.

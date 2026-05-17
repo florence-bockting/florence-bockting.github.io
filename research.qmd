@@ -1,0 +1,120 @@
+---
+from: markdown+emoji
+---
+## Research
+My research spans Bayesian methodology, research software engineering, and applied data science across scientific domains. During my doctoral work I developed a simulation-based method for
+*expert prior elicitation*, translating domain knowledge into prior distributions for Bayesian
+models, and built [elicito](https://pypi.org/project/elicito/), an open-source Python package
+published on PyPI and conda-forge, with documentation, CI testing, and development environment in GitHub.
+
+Beyond pure method development, I have worked in different domains. In climate science I
+developed data pipelines to assimilate ground-based and satellite observations of greenhouse
+gas concentrations into data products for earth system modelling groups. In
+social psychology I contributed to the full research cycle (experimental design, data
+collection, statistical analysis, and reproducible implementation) and developed mathematical and computational models to formalize verbal theories of truth judgments. 
+
+::: {.panel-tabset}
+## Publications
+
+### Doctoral thesis
+
+**Bockting, F.** (2026). *Simulation-based expert prior elicitation: Method and software development.* Doctoral Thesis. TU Dortmund University.<br>
+<a class="badge badge-pdf" href="https://eldorado.tu-dortmund.de/bitstreams/0beb9162-3f82-42eb-8383-895f30a0b5c3/download" target="_blank" rel="noopener">PDF</a>
+
+---
+
+### Articles
+{{< bi file-earmark-text >}} **Bockting, F.** & Bürkner, P. C. (2025). **elicito**: A Python package for expert prior elicitation. *arXiv preprint*.<br>
+<a class="badge badge-arxiv" href="https://arxiv.org/abs/2506.16830" target="_blank" rel="noopener">ArXiv</a>
+
+{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2025). Expert-elicitation method for non-parametric joint priors using normalizing flows. *Statistics and Computing 35*, 132.
+<div>
+  <a class="badge badge-arxiv" href="https://arxiv.org/abs/2411.15826" target="_blank" rel="noopener">ArXiv</a>
+  <a class="badge badge-journal" href="https://link.springer.com/article/10.1007/s11222-025-10665-z" target="_blank" rel="noopener">Journal Article</a>
+</div>
+
+{{< bi file-earmark-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Simulation-based prior knowledge elicitation for parametric Bayesian models. *Scientific Reports 14*, 17330.
+<div>
+  <a class="badge badge-pdf" href="https://doi.org/10.1038/s41598-024-68090-7" target="_blank" rel="noopener">PDF</a>
+  <a class="badge badge-arxiv" href="https://arxiv.org/abs/2308.11672" target="_blank" rel="noopener">ArXiv</a>
+  <a class="badge badge-link" href="https://elicito.readthedocs.io/en/latest/" target="_blank" rel="noopener">Project website</a>
+</div>
+
+{{< bi file-earmark-text >}} Heck, D. W. & **Bockting, F.** (2023). Benefits of Bayesian model averaging for mixed-effects modeling. *Computational Brain & Behavior 6*, 35–49.
+<div>
+  <a class="badge badge-pdf" href="https://link.springer.com/content/pdf/10.1007/s42113-021-00118-x.pdf" target="_blank" rel="noopener">PDF</a>
+  <a class="badge badge-journal" href="https://doi.org/10.1007/s42113-021-00118-x" target="_blank" rel="noopener">Journal Article</a>
+</div>
+
+{{< bi file-earmark-text >}} van Doorn, J., Haaf, J. M., Stefan, A. M., Wagenmakers, E. J., ..., **Bockting, F.** & Aust, F. (2023). Bayes factors for mixed models: A discussion. *Computational Brain & Behavior 6*, 1–13.
+<div>
+  <a class="badge badge-pdf" href="https://link.springer.com/content/pdf/10.1007/s42113-022-00160-3.pdf" target="_blank" rel="noopener">PDF</a>
+  <a class="badge badge-journal" href="https://link.springer.com/article/10.1007/s42113-022-00160-3" target="_blank" rel="noopener">Journal Article</a>
+</div>
+
+---
+
+### Talks & Presentations
+
+{{< bi chat-text >}} **Bockting, F.** (2025). Contributed talk: Predictive prior elicitation — state of the art and current challenges. [Workshop on Bayesian Modelling](https://www.cec.lu.se/calendar/workshop-bayesian-modelling), Lund University.
+<br>
+<a class="badge badge-slides" href="files/2025_lund_workshop.pdf" target="_blank" rel="noopener">Slides</a>
+
+{{< bi chat-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Contributed talk: Normalizing flows for simulation-based expert prior elicitation. [MathPsych](https://mathpsych.org/) — Society for Mathematical Psychology.
+<br>
+<a class="badge badge-slides" href="files/mathpsych_presentation.pdf" target="_blank" rel="noopener">Slides</a>
+
+{{< bi chat-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Contributed talk: Simulation-based prior knowledge elicitation for parametric Bayesian models. [ISBA](https://www.unive.it/web/en/2208/home) — International Society for Bayesian Statistics.
+<br>
+<a class="badge badge-slides" href="files/isba_presentation.pdf" target="_blank" rel="noopener">Slides</a>
+
+{{< bi chat-text >}} **Bockting, F.**, Radev, S. T. & Bürkner, P. C. (2024). Invited talk: Simulation-based prior knowledge elicitation for parametric Bayesian models. [Bayes\@Lund](https://www.bayesatlund.com/).
+<div>
+<a class="badge badge-slides" href="files/bayesatlund_presentation.pdf" target="_blank" rel="noopener">Slides</a>
+<a class="badge badge-video" href="https://www.youtube.com/watch?v=KFPn7P2mfQw" target="_blank" rel="noopener">YouTube</a>
+</div>
+
+{{< bi chat-text >}} **Bockting, F.** & Heck, D. W. (2021). Measuring individual differences in the truth effect: A formal analysis. Fast Talk at [MathPsych](https://mathpsych.org/).
+
+---
+
+### Book chapter
+
+{{< bi book >}} Stephan, A., Walter, S., Anton, T., ..., **Bockting, F.**, ..., & Schütze, P. (2021). Nachwort. In Turing, A. M. *Computing Machinery and Intelligence. Können Maschinen Denken?* (pp. 131–201). Reclam.<br>
+<a class="badge badge-publisher" href="https://www.reclam.de/detail/978-3-15-961827-2/Turing__Alan_M_/Computing_Machinery_and_Intelligence___Koennen_Maschinen_denken___EPUB_" target="_blank" rel="noopener">Publisher</a>
+
+---
+
+## Teaching
+
+### Courses
+
+**Introduction to Python** · 2023/24, 2024/25 · TU Dortmund University
+
+An undergraduate and graduate course covering Python fundamentals alongside reproducible software practices: packaging, data wrangling, visualisation, version control, and collaborative development with Git and GitHub.<br>
+<a class="badge badge-link" href="https://github.com/florence-bockting/python-class-24/" target="_blank" rel="noopener">2024/25 repository</a>
+
+**Seminar on multilevel models** · 2023/24 · TU Dortmund University
+
+A graduate seminar covering linear and generalised linear multilevel models from both frequentist and Bayesian perspectives, with implementation in R using `lme4` and `brms`.
+
+---
+
+### Thesis supervision
+
+**2024/25** · TU Dortmund University
+
+- Analysis of different initialization approaches for hyperparameter optimization with mini-batch stochastic gradient descent: a simulation study *(Bachelor)*
+- Sensitivity analysis and performance evaluation of varying upper thresholds for discrete likelihoods using the Softmax-Gumbel Trick *(Master)*
+
+**2021/22** · Marburg University
+
+- The influence of response scales on the knowledge gain of underlying cognitive mechanisms: the role of uncertainty and truth perception in the Truth Effect *(Bachelor)*
+- Empirical test of core assumptions of the Referential Theory: influence of repetition on perceived coherence *(Bachelor)*
+- Identification and testing of relevant psychological factors on truth judgments and the truth effect according to the Referential Theory *(Bachelor)*
+
+**2020/21** · Marburg University
+
+- Truth Effect — the role of the response scale in truth effect designs with short delay *(Bachelor)*
+
+:::

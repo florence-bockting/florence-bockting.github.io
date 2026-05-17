@@ -1,0 +1,254 @@
+---
+from: markdown+emoji
+format:
+  html:
+    page-layout: full
+---
+
+## Stack
+
+I build maintainable Python and R software and reproducible research artifacts, from tested packages and CI workflows to published documentation. My goal is to build FAIR (findable, accessible, interoperable, reusable) software which can be reused by the community. See [Software](software.qmd) for more information about my work on open-source software and [Home](index.qmd) for getting some impression of my background.
+
+```{=html}
+<div class="oss-section">
+
+  <div class="oss-group-label contributor-label">Languages &amp; environments</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Programming Languages</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.python.org" target="_blank" rel="noopener">Python</a>
+        <a class="pkg-action-link" href="https://www.r-project.org" target="_blank" rel="noopener">R</a>
+        <a class="pkg-action-link" href="https://mc-stan.org" target="_blank" rel="noopener">Stan</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Package &amp; Environment Management</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://docs.astral.sh/uv/" target="_blank" rel="noopener">uv</a>
+        <a class="pkg-action-link" href="https://pypi.org/project/pip/" target="_blank" rel="noopener">pip</a>
+        <a class="pkg-action-link" href="https://python-poetry.org" target="_blank" rel="noopener">poetry</a>
+        <a class="pkg-action-link" href="https://pixi.sh/latest/" target="_blank" rel="noopener">pixi</a>
+        <a class="pkg-action-link" href="https://rstudio.github.io/renv/" target="_blank" rel="noopener">renv</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting/elicito" target="_blank" rel="noopener">elicito</a>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP" target="_blank" rel="noopener">GHG-forcing</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="oss-group-label contributor-label">Build &amp; quality</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Version Control</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://git-scm.com" target="_blank" rel="noopener">Git</a>
+        <a class="pkg-action-link" href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a class="pkg-action-link" href="https://about.gitlab.com" target="_blank" rel="noopener">GitLab</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Profiles:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting" target="_blank" rel="noopener">github.com/florence-bockting</a>
+        <a class="pkg-action-link" href="https://gitlab.com/florence-bockting" target="_blank" rel="noopener">gitlab.com/florence-bockting</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Testing, Linting &amp; Formatting</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://docs.pytest.org/en/stable/" target="_blank" rel="noopener">pytest</a>
+        <a class="pkg-action-link" href="https://black.readthedocs.io/en/stable/" target="_blank" rel="noopener">black</a>
+        <a class="pkg-action-link" href="https://mypy-lang.org" target="_blank" rel="noopener">mypy</a>
+        <a class="pkg-action-link" href="https://docs.astral.sh/ruff/" target="_blank" rel="noopener">ruff</a>
+        <a class="pkg-action-link" href="https://testthat.r-lib.org" target="_blank" rel="noopener">testthat</a>
+        <a class="pkg-action-link" href="https://lintr.r-lib.org" target="_blank" rel="noopener">lintr</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting/elicito/tree/main/tests" target="_blank" rel="noopener">elicito tests</a>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main/tests" target="_blank" rel="noopener">GHG-forcing tests</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Continuous Integration</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/florence-bockting/elicito/tree/main/.github/workflows" target="_blank" rel="noopener">elicito workflows</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="oss-group-label contributor-label">Release &amp; open science</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Publishing</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://pypi.org" target="_blank" rel="noopener">PyPI</a>
+        <a class="pkg-action-link" href="https://conda-forge.org" target="_blank" rel="noopener">conda-forge</a>
+        <a class="pkg-action-link" href="https://cran.r-project.org" target="_blank" rel="noopener">CRAN</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://pypi.org/project/elicito/" target="_blank" rel="noopener">elicito (PyPI)</a>
+        <a class="pkg-action-link" href="https://pypi.org/project/gradient-aware-harmonisation/" target="_blank" rel="noopener">gradient-aware-harmonisation</a>
+        <a class="pkg-action-link" href="https://github.com/conda-forge/elicito-feedstock" target="_blank" rel="noopener">elicito (conda-forge)</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Documentation</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.sphinx-doc.org/en/master/" target="_blank" rel="noopener">Sphinx</a>
+        <a class="pkg-action-link" href="https://about.readthedocs.com" target="_blank" rel="noopener">Read the Docs</a>
+        <a class="pkg-action-link" href="https://roxygen2.r-lib.org" target="_blank" rel="noopener">roxygen2</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/" target="_blank" rel="noopener">elicito docs</a>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/tutorials/" target="_blank" rel="noopener">elicito tutorials</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Data Management</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://zenodo.org" target="_blank" rel="noopener">Zenodo</a>
+        <a class="pkg-action-link" href="https://osf.io" target="_blank" rel="noopener">OSF</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://osf.io/user/mbpx7" target="_blank" rel="noopener">OSF profile</a>
+        <a class="pkg-action-link" href="https://zenodo.org/records/15671710" target="_blank" rel="noopener">Zenodo record</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="oss-group-label contributor-label">Communicate &amp; scale</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Writing &amp; Reporting</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://jupyter.org" target="_blank" rel="noopener">Jupyter</a>
+        <a class="pkg-action-link" href="https://quarto.org" target="_blank" rel="noopener">Quarto</a>
+        <a class="pkg-action-link" href="https://rmarkdown.rstudio.com/index.html" target="_blank" rel="noopener">Rmd</a>
+        <a class="pkg-action-link" href="https://jupytext.readthedocs.io/en/latest/" target="_blank" rel="noopener">JupyText</a>
+        <a class="pkg-action-link" href="https://www.overleaf.com" target="_blank" rel="noopener">Overleaf</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://users.aalto.fi/~ave/casestudies/LOO_uncertainty/loo_uncertainty.html" target="_blank" rel="noopener">LOO tutorial (Rmd)</a>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/tutorials/" target="_blank" rel="noopener">elicito tutorials</a>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts" target="_blank" rel="noopener">CMIP7 manuscripts</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Apps</span>
+        <div class="stack-langs">
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://shiny.posit.co" target="_blank" rel="noopener">Shiny</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://mixed-effects-models.shinyapps.io/shiny_app/" target="_blank" rel="noopener">mixed-effects models app</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Workflow Orchestration</span>
+        <div class="stack-langs">
+          <span class="badge badge-py">Python</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://www.prefect.io" target="_blank" rel="noopener">Prefect</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main" target="_blank" rel="noopener">GHG-forcing pipeline</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">High Performance Computing</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://lido.itmc.tu-dortmund.de/lido3/" target="_blank" rel="noopener">LIDO3 (TU Dortmund)</a>
+        <a class="pkg-action-link" href="https://www.nersc.gov" target="_blank" rel="noopener">NERSC</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/climate-resource/GHG-forcing-for-CMIP" target="_blank" rel="noopener">climate data pipelines</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+```

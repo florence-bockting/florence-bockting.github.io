@@ -1,0 +1,152 @@
+---
+from: markdown+emoji
+format:
+  html:
+    page-layout: full
+---
+
+## Open Source Software
+
+Open-source software is central to how I work, as a maintainer of Python packages in Bayesian methodology and climate data pipelines, and as a contributor to established R packages in the Stan ecosystem. For the tooling behind this work, see the [Stack](stack.qmd) page.
+
+```{=html}
+<div class="oss-section">
+
+  <div class="oss-group-label maintainer-label">Maintainer / Author</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/florence-bockting/elicito/tree/main" target="_blank" rel="noopener">elicito</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Python package for learning prior distributions of model parameters from expert knowledge.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://arxiv.org/abs/2506.16830" target="_blank" rel="noopener">Paper</a>
+        <a class="pkg-action-link" href="https://pypi.org/project/elicito/" target="_blank" rel="noopener">PyPI</a>
+        <a class="pkg-action-link" href="https://elicito.readthedocs.io/" target="_blank" rel="noopener">Docs</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/gradient-aware-harmonisation" target="_blank" rel="noopener">gradient-aware-harmonisation</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Python package for harmonizing two time series using zero- and first-order gradient information.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Time Series</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/GHG-forcing-for-CMIP/tree/main" target="_blank" rel="noopener">GHG-forcing-for-CMIP</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Pipeline for constructing a composite greenhouse gas dataset from ground-based and satellite observations, suitable as forcing input for climate models in CMIP.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Data Pipeline</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="oss-group-label contributor-label">Contributor</div>
+
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://mc-stan.org/loo/" target="_blank" rel="noopener">loo</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">Efficient leave-one-out cross-validation and WAIC for Bayesian models.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://mc-stan.org/bayesplot/" target="_blank" rel="noopener">bayesplot</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">Plotting functions for posterior distributions, prior/posterior checks, and MCMC diagnostics.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-plotting">Plotting</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://mc-stan.org/posterior/" target="_blank" rel="noopener">posterior</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">Tools for manipulating and summarizing posterior and prior distributions.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://paul-buerkner.github.io/brms/" target="_blank" rel="noopener">brms</a>
+        <span class="badge badge-r">R</span>
+      </div>
+      <p class="pkg-desc">High-level R interface for fitting Bayesian regression models via Stan.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts" target="_blank" rel="noopener">CMIP7-GHG-Concentration-Manuscripts</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Reproducible manuscript workflow. JupyText notebooks compiled to publication-ready LaTeX PDFs.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Tooling</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/PCMDI/input4MIPs_CVs" target="_blank" rel="noopener">input4MIPs_CVs</a>
+        <span class="badge badge-data">Data</span>
+      </div>
+      <p class="pkg-desc">Controlled vocabularies for the input4MIPs project, defining the allowed metadata terms across datasets.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Tooling</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/climate-resource/cmip7-scenariomip-ghg-concentrations" target="_blank" rel="noopener">CMIP7 ScenarioMIP GHG Concentrations</a>
+        <span class="badge badge-py">Python</span>
+      </div>
+      <p class="pkg-desc">Generation of greenhouse gas concentration inputs (forcings) for CMIP7's ScenarioMIP.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-climate">Climate Science</span>
+        <span class="badge badge-ts">Data Pipeline</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+```
