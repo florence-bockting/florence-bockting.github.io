@@ -1,5 +1,6 @@
 /* ── Design tokens (Sandstone / Bootstrap) ─────────────── */
 :root {
+  color-scheme: light;
   --card-border: var(--bs-border-color, #dee2e6);
   --card-bg: var(--bs-body-bg, #fff);
   --card-muted: var(--bs-secondary-color, #6c757d);
@@ -271,13 +272,6 @@ main.content .oss-section {
 [data-bs-theme="dark"] .quarto-about-trestles .about-contents {
   background: color-mix(in srgb, var(--bs-primary, #325d88) 10%, var(--bs-gray-800, #343a40));
   border-color: var(--bs-gray-700, #495057);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-bs-theme="light"]) .quarto-about-trestles .about-contents {
-    background: color-mix(in srgb, var(--bs-primary, #325d88) 10%, var(--bs-gray-800, #343a40));
-    border-color: var(--bs-gray-700, #495057);
-  }
 }
 
 /* ── Badges ────────────────────────────────────────────── */
@@ -707,98 +701,6 @@ a.tool-chip[target="_blank"]::after {
   color: var(--bs-gray-100, #f8f9fa);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-bs-theme="light"]) .pkg-card {
-    background: var(--bs-gray-800, #343a40);
-    border-color: var(--bs-gray-700, #495057);
-  }
-
-  :root:not([data-bs-theme="light"]) .pkg-card:hover {
-    border-color: var(--bs-gray-600, #6c757d);
-  }
-
-  :root:not([data-bs-theme="light"]) .pkg-name,
-  :root:not([data-bs-theme="light"]) .stack-cat {
-    color: var(--bs-gray-100, #f8f9fa);
-  }
-
-  :root:not([data-bs-theme="light"]) .pkg-desc,
-  :root:not([data-bs-theme="light"]) .stack-ex-label,
-  :root:not([data-bs-theme="light"]) .stack-ex-note {
-    color: var(--bs-gray-400, #ced4da);
-  }
-
-  :root:not([data-bs-theme="light"]) .stack-ex-links {
-    border-top-color: var(--bs-gray-700, #495057);
-  }
-
-  :root:not([data-bs-theme="light"]) .stack-ex-links a.pkg-action-link {
-    color: var(--bs-gray-400, #ced4da);
-    text-decoration-color: color-mix(in srgb, var(--bs-gray-400, #ced4da) 55%, transparent);
-  }
-
-  :root:not([data-bs-theme="light"]) .stack-ex-links a.pkg-action-link:hover {
-    background: transparent;
-    border: none;
-    color: var(--bs-gray-200, #e9ecef);
-    text-decoration-color: var(--bs-gray-200, #e9ecef);
-  }
-
-  :root:not([data-bs-theme="light"]) span.tool-chip {
-    background: var(--bs-gray-700, #495057);
-    color: var(--bs-gray-200, #e9ecef);
-  }
-
-  :root:not([data-bs-theme="light"]) a.tool-chip,
-  :root:not([data-bs-theme="light"]) a.badge.badge-link,
-  :root:not([data-bs-theme="light"]) a.badge.badge-pdf,
-  :root:not([data-bs-theme="light"]) a.badge.badge-arxiv,
-  :root:not([data-bs-theme="light"]) a.badge.badge-journal,
-  :root:not([data-bs-theme="light"]) a.badge.badge-slides,
-  :root:not([data-bs-theme="light"]) a.badge.badge-video,
-  :root:not([data-bs-theme="light"]) a.badge.badge-publisher,
-  :root:not([data-bs-theme="light"]) .pkg-action-link,
-  :root:not([data-bs-theme="light"]) .pkg-paper-link {
-    background: transparent;
-    border-color: var(--bs-gray-400, #ced4da);
-    color: var(--bs-gray-200, #e9ecef);
-  }
-
-  :root:not([data-bs-theme="light"]) a.tool-chip:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-link:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-pdf:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-arxiv:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-journal:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-slides:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-video:hover,
-  :root:not([data-bs-theme="light"]) a.badge.badge-publisher:hover,
-  :root:not([data-bs-theme="light"]) .pkg-action-link:hover,
-  :root:not([data-bs-theme="light"]) .pkg-paper-link:hover {
-    background: var(--bs-gray-700, #495057);
-    border-color: var(--bs-gray-300, #dee2e6);
-    color: var(--bs-gray-100, #f8f9fa);
-  }
-
-  :root:not([data-bs-theme="light"]) .cv-entry {
-    background: var(--bs-gray-800, #343a40);
-    border-color: var(--bs-gray-700, #495057);
-  }
-
-  :root:not([data-bs-theme="light"]) .cv-entry-current {
-    background: color-mix(in srgb, var(--bs-success, #93c54b) 12%, var(--bs-gray-800, #343a40));
-  }
-
-  :root:not([data-bs-theme="light"]) .cv-entry-title {
-    color: var(--bs-gray-100, #f8f9fa);
-  }
-
-  :root:not([data-bs-theme="light"]) .cv-entry-date,
-  :root:not([data-bs-theme="light"]) .cv-entry-org,
-  :root:not([data-bs-theme="light"]) .cv-entry-location {
-    color: var(--bs-gray-400, #ced4da);
-  }
-}
-
 /* ── About page ────────────────────────────────────────── */
 .about-sidebar {
   display: flex;
@@ -810,6 +712,22 @@ a.tool-chip[target="_blank"]::after {
 
 .about-cv-chip {
   margin-top: 0.25rem;
+}
+
+@media (max-width: 767px) {
+  main.content .columns {
+    flex-direction: column;
+  }
+
+  main.content .columns > .column {
+    width: 100% !important;
+    flex: 1 1 auto;
+    overflow-x: visible;
+  }
+
+  .about-sidebar {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 768px) {

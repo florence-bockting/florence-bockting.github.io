@@ -52,6 +52,7 @@ format:
       - sandstone
       - custom.scss
     css: styles.css
+    respect-user-color-scheme: false
 
 filters:
   - badge.lua
