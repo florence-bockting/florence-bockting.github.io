@@ -715,18 +715,44 @@ a.tool-chip[target="_blank"]::after {
 }
 
 @media (max-width: 767px) {
-  main.content .columns {
+  /* Stack About: photo → CV → bio → contact/skills/interests → nav links */
+  section#about {
+    display: flex;
     flex-direction: column;
   }
 
-  main.content .columns > .column {
+  section#about .columns,
+  section#about .columns > .column,
+  section#about .about-sidebar {
+    display: contents;
+  }
+
+  section#about .columns > .column {
     width: 100% !important;
-    flex: 1 1 auto;
     overflow-x: visible;
   }
 
-  .about-sidebar {
-    margin-bottom: 1rem;
+  section#about .about-photo {
+    order: 1;
+  }
+
+  section#about .about-cv-chip {
+    order: 2;
+  }
+
+  section#about .columns > .column:nth-child(2) > * {
+    order: 3;
+  }
+
+  section#about .about-meta-band {
+    order: 4;
+    margin: 1rem 0 0.5rem;
+    padding: 0.85rem 0;
+  }
+
+  section#about .about-summary-links {
+    order: 5;
+    margin: 0 0 1rem;
   }
 }
 
