@@ -12,7 +12,7 @@ an explanation of the topic "for dummies." For a long time I assumed this
 difficulty reflected my own limited knowledge, but talking with colleagues, I
 learned it is a fairly common experience to simply "not understand the work of
 others." This is actually a significant problem in practice. For example, I was
-aware of work of others that might have been interestin, but I could not parse
+aware of work by others that might have been interesting, but I could not parse
 it and therefore could not draw connections. I think this is a widespread issue,
 and part of why researchers tend to stay within their own small sub-communities
 rather than working across them. It leaves me with a genuine question: for whom
@@ -31,16 +31,17 @@ thought I had really interesting results, went to my supervisor, showed them -
 and rerunning the method produced different results. When asked whether I
 could show what had changed and what the earlier results looked like, I had to
 say: I would need to re-implement the code, because I had deleted it. This was
-embarassing and obviously very bad research practice, and I recognized also that 
-something was wrong at that time; the entire process felt unsatisfactory but I
-did not know how to do it differently. Some time later  a colleague mentioned to me the 
-field of research software engineering, and when I looked into it, it felt like
-a door opening onto a world full of tools for good research practice:
-version control, reproducible environments, test-driven development, modularization of code, etc. - backed by a highly welcoming
+embarrassing and obviously very bad research practice, and I also recognized
+that something was wrong at that time; the entire process felt unsatisfactory,
+but I did not know how to do it differently. Some time later, a colleague
+mentioned the field of research software engineering to me, and when I looked
+into it, it felt like a door opening onto a world full of tools for good
+research practice: version control, reproducible environments, test-driven
+development, modularization of code, etc. - backed by a highly welcoming
 community that strongly supports self-learning. I wish universities would
 actively advertise introductory research software engineering courses to all
-doctoral students. It would have made so many things cleaner, easier and, 
-ultimately, faster. 
+doctoral students. It would have made so many things cleaner, easier, and,
+ultimately, faster.
 
 #### Good software documentation vs. academic incentive structure
 Over the course of my doctoral work, I ended up developing my own Python package

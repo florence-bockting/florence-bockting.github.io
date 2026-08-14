@@ -155,6 +155,7 @@ I build maintainable Python and R software and reproducible research artifacts, 
         <span class="stack-ex-label">Examples:</span>
         <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/" target="_blank" rel="noopener">elicito docs</a>
         <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/tutorials/" target="_blank" rel="noopener">elicito tutorials</a>
+        <a class="pkg-action-link" href="https://github.com/stan-dev/bayesplot/blob/master/vignettes/articles-online-only/ppc-calibration.Rmd" target="_blank" rel="noopener">PPC calibration</a>
       </div>
     </div>
 
@@ -199,6 +200,24 @@ I build maintainable Python and R software and reproducible research artifacts, 
         <a class="pkg-action-link" href="https://users.aalto.fi/~ave/casestudies/LOO_uncertainty/loo_uncertainty.html" target="_blank" rel="noopener">LOO tutorial (Rmd)</a>
         <a class="pkg-action-link" href="https://elicito.readthedocs.io/en/latest/tutorials/" target="_blank" rel="noopener">elicito tutorials</a>
         <a class="pkg-action-link" href="https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts" target="_blank" rel="noopener">CMIP7 manuscripts</a>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
+        <span class="stack-cat">Lifecycle &amp; migration</span>
+        <div class="stack-langs">
+          <span class="badge badge-r">R</span>
+        </div>
+      </div>
+      <div class="pkg-links">
+        <a class="pkg-action-link" href="https://github.com/stan-dev/loo/pull/300" target="_blank" rel="noopener">revdepcheck</a>
+        <a class="pkg-action-link" href="https://github.com/stan-dev/bayesplot/blob/master/vignettes/articles-online-only/loo-pit-correlated-tests.Rmd" target="_blank" rel="noopener">migration vignette</a>
+      </div>
+      <div class="pkg-links stack-ex-links">
+        <span class="stack-ex-label">Examples:</span>
+        <a class="pkg-action-link" href="https://github.com/stan-dev/loo/pull/300" target="_blank" rel="noopener">reverse dependency checks</a>
+        <a class="pkg-action-link" href="https://github.com/stan-dev/bayesplot/blob/master/vignettes/articles-online-only/loo-pit-correlated-tests.Rmd" target="_blank" rel="noopener">bayesplot migration notes</a>
       </div>
     </div>
 

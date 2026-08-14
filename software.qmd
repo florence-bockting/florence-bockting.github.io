@@ -113,6 +113,18 @@ Open-source software is central to how I work, as a maintainer of Python package
 
     <div class="pkg-card">
       <div class="pkg-top">
+        <a class="pkg-name" href="https://github.com/stan-dev/math" target="_blank" rel="noopener">math</a>
+        <span class="badge badge-stats">C++</span>
+      </div>
+      <p class="pkg-desc">Matrix and linear algebra operations, probability distributions, and autodiff support used by Stan models.</p>
+      <div class="pkg-tags">
+        <span class="badge badge-stats">Statistics</span>
+        <span class="badge badge-bayes">Bayesian</span>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top">
         <a class="pkg-name" href="https://github.com/climate-resource/CMIP7-GHG-Concentration-Manuscripts" target="_blank" rel="noopener">CMIP7-GHG-Concentration-Manuscripts</a>
         <span class="badge badge-py">Python</span>
       </div>

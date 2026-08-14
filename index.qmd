@@ -23,9 +23,9 @@ from: markdown+emoji
 
 ::: {.column width="65%"}
 
-I am a postdoctoral research software engineer in the [Bayesian Workflow Group](https://users.aalto.fi/~ave/group.html) at Aalto University, Finland, where I implement new developments in Bayesian statistics into software, primarily within the [Stan ecosystem](https://mc-stan.org). My work spans method development, end-to-end data and modelling workflows, and open, well-tested research software in Python and R.
+I am a postdoc and research software engineer in the [Bayesian Workflow Group](https://users.aalto.fi/~ave/group.html) at Aalto University, Finland, where I implement new developments in Bayesian statistics in open-source software, primarily within the [Stan ecosystem](https://mc-stan.org). My work spans method development, end-to-end data and modelling workflows, and the development of open, well-tested research software in Python and R.
 
-Previously I built greenhouse-gas concentration data pipelines at [Climate Resource GmbH](https://www.climate-resource.com) and completed a doctorate in [computational statistics](https://paulbuerkner.com/people/) at TU Dortmund University on simulation-based expert prior elicitation ([elicito](https://pypi.org/project/elicito/)).
+Previously, I built greenhouse-gas concentration data pipelines at [Climate Resource GmbH](https://www.climate-resource.com) and completed a doctorate in [computational statistics](https://paulbuerkner.com/people/) at TU Dortmund University on simulation-based expert prior elicitation ([elicito](https://pypi.org/project/elicito/)).
 
 :::
 
@@ -49,6 +49,7 @@ Previously I built greenhouse-gas concentration data pipelines at [Climate Resou
       <span class="tool-chip">Python</span>
       <span class="tool-chip">R</span>
       <span class="tool-chip">Bayesian statistics</span>
+      <span class="tool-chip">Machine Learning</span>
       <span class="tool-chip">Research software engineering</span>
       <span class="tool-chip">Data pipelines</span>
       <span class="tool-chip">Reproducible science</span>
@@ -61,8 +62,9 @@ Previously I built greenhouse-gas concentration data pipelines at [Climate Resou
       <span class="badge badge-ts">Open Source</span>
       <span class="badge badge-bayes">Bayesian methods</span>
       <span class="badge badge-stats">Data science</span>
-      <span class="badge badge-data">Software security</span>
-      <span class="badge badge-climate">Climate science</span>
+      <span class="badge badge-data">Machine Learning</span>
+      <span class="badge badge-climate">Software security</span>
+      <span class="badge badge-plotting">Climate science</span>
       <span class="badge badge-plotting">Cognitive &amp; social science</span>
     </div>
   </div>
@@ -72,9 +74,9 @@ Previously I built greenhouse-gas concentration data pipelines at [Climate Resou
 
 ## Background
 
-My path into research software engineering began in applied psychology. During my bachelor's in [Business Psychology](https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc) I focussed on consumer and market research with first practice experiences at [Ipsos GmbH](https://www.ipsos.com/en) and [Produkt+Markt GmbH](https://www.produktundmarkt.de/en/). To deepen my computational and statistical skills I followed up with a master's in [Cognitive Science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/) with a focus on formal modelling, Bayesian methods, and their implementation in R and Python.
+My path into research software engineering began in applied psychology. During my bachelor's in [Business Psychology](https://www.hs-harz.de/en/study/faculty-of-business-studies/business-psychology-bsc) I focused on consumer and market research, with first practical experience at [Ipsos GmbH](https://www.ipsos.com/en) and [Produkt+Markt GmbH](https://www.produktundmarkt.de/en/). To deepen my computational and statistical skills, I followed up with a master's in [Cognitive Science](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-master-of-science/) with a focus on machine learning, formal modelling, Bayesian methods, and their implementation in R and Python.
 
-In academia I worked at Philipps-University Marburg and TU Dortmund University, where I completed my doctorate in computational statistics on expert prior elicitation and developed the open-source Python package [elicito](https://pypi.org/project/elicito/). I then joined [Climate Resource](https://www.climate-resource.com/) as a research scientist and software engineer, developing data pipelines for earth system modelling groups, before moving to Aalto to work at the intersection of Bayesian methodology, research software engineering, and reproducible science.
+In academia, I worked at Philipps-University Marburg, the SimTech Cluster of Excellence at the University of Stuttgart, and TU Dortmund University, where I completed my doctorate in computational statistics on expert prior elicitation and developed the open-source Python package [elicito](https://pypi.org/project/elicito/). In the final year of my PhD, I also joined [Climate Resource](https://www.climate-resource.com/) as a research scientist and software engineer, developing data pipelines for Earth system modelling groups. I am now at Aalto University, working at the intersection of Bayesian methods, research software engineering, and reproducible science.
 
 ## Experience
 
@@ -85,7 +87,7 @@ In academia I worked at Philipps-University Marburg and TU Dortmund University, 
     <div class="cv-entry-marker"><i class="bi bi-briefcase" role="img" aria-hidden="true"></i></div>
     <div class="cv-entry-content">
       <div class="cv-entry-date">2026 – present</div>
-      <div class="cv-entry-title">Research Scientist / Research Software Engineer</div>
+      <div class="cv-entry-title">PostDoc / Research Software Engineer</div>
       <div class="cv-entry-org"><em><a href="https://users.aalto.fi/~ave/group.html">Bayesian Workflow Group</a></em>, Computer Science Department</div>
       <div class="cv-entry-location">Aalto University, Espoo, Finland</div>
     </div>
@@ -108,6 +110,7 @@ In academia I worked at Philipps-University Marburg and TU Dortmund University, 
       <div class="cv-entry-title">Research Scientist</div>
       <div class="cv-entry-org"><em><a href="https://compstat.statistik.tu-dortmund.de/" target="_blank" rel="noopener">Computational Statistics</a></em>, Statistics Department</div>
       <div class="cv-entry-location">TU Dortmund University, Dortmund, Germany</div>
+      <div class="cv-entry-location">SimTech Cluster of Excellence at the University of Stuttgart, Germany</div>
     </div>
   </div>
 
