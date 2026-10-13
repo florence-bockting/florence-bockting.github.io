@@ -39,6 +39,7 @@ from: markdown+emoji
       <li>German <span class="cv-skill-level">(mother language)</span></li>
       <li>English <span class="cv-skill-level">(fluent)</span></li>
       <li>French <span class="cv-skill-level">(intermediate)</span></li>
+      <li>Finnish <span class="cv-skill-level">(beginner)</span></li>
     </ul>
   </section>
 
